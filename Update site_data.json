@@ -1,0 +1,25 @@
+{
+  "online": true,
+  "bot_username": "FlexStrong_bot",
+  "timestamp": "07.06.2026 00:00:00",
+  "stats": {
+    "total_users": 1,
+    "premium_users": 0,
+    "total_diamonds": 8
+  },
+  "top": [
+    {
+      "position": 1,
+      "user_id": 7437870400,
+      "username": "admin",
+      "name": "Admin",
+      "diamonds": 8,
+      "rating": 80,
+      "is_premium": false,
+      "percent": 100.0
+    }
+  ],
+  "recent_spends": [],
+  "recent_premium": [],
+  "top_spenders": []
+}
