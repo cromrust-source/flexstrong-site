@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "05.06.2026 21:05:33",
+  "timestamp": "05.06.2026 21:10:35",
   "stats": {
     "total_users": 307,
     "premium_users": 5,
-    "total_diamonds": 11546
+    "total_diamonds": 11548
   },
   "top": [
     {
@@ -969,13 +969,23 @@
       "percent": 0.0
     },
     {
+      "user_id": 8384333914,
+      "username": "lololowenka12",
+      "name": "Soooo, final time?",
+      "diamonds": 2,
+      "rating": 38,
+      "is_premium": false,
+      "position": 97,
+      "percent": 0.0
+    },
+    {
       "user_id": 8512936710,
       "username": "gsvtttt",
       "name": ".",
       "diamonds": 2,
       "rating": 38,
       "is_premium": false,
-      "position": 97,
+      "position": 98,
       "percent": 0.0
     },
     {
@@ -985,7 +995,7 @@
       "diamonds": 0,
       "rating": 36,
       "is_premium": false,
-      "position": 98,
+      "position": 99,
       "percent": 0.0
     },
     {
@@ -994,16 +1004,6 @@
       "name": "Kanye West",
       "diamonds": 0,
       "rating": 36,
-      "is_premium": false,
-      "position": 99,
-      "percent": 0.0
-    },
-    {
-      "user_id": 1191243047,
-      "username": "JorgeFloidICantBreathe",
-      "name": "Sigma_JokerPashalkovich",
-      "diamonds": 0,
-      "rating": 34,
       "is_premium": false,
       "position": 100,
       "percent": 0.0
