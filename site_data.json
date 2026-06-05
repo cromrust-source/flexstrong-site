@@ -1,19 +1,19 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "05.06.2026 19:55:10",
+  "timestamp": "05.06.2026 19:56:23",
   "stats": {
     "total_users": 306,
     "premium_users": 5,
-    "total_diamonds": 11534
+    "total_diamonds": 11536
   },
   "top": [
     {
       "user_id": 7831720836,
       "username": "nonLuks",
       "name": "radion",
-      "diamonds": 9880,
-      "rating": 99010,
+      "diamonds": 9882,
+      "rating": 99030,
       "is_premium": false,
       "position": 1,
       "percent": 100.0
