@@ -3,112 +3,449 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlexStrong Bot — Live Статистика</title>
+    <title>FlexStrong Bot | Live Статистика</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', system-ui, sans-serif; }
-        :root { --bg: #0a0a0f; --card: #12121a; --border: #1e1e30; --accent: #7c3aed; --accent2: #a78bfa; --gold: #f59e0b; --text: #e2e8f0; --text2: #94a3b8; --green: #10b981; --red: #ef4444; }
-        body { background: var(--bg); color: var(--text); min-height: 100vh; }
-        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
-        .header { text-align: center; padding: 30px 0 15px; }
-        .header h1 { font-size: 36px; font-weight: 800; background: linear-gradient(135deg, var(--accent2), var(--gold)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .status-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 16px 20px; margin: 16px 0; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
-        .status-dot { width: 12px; height: 12px; border-radius: 50%; }
-        .status-dot.online { background: var(--green); box-shadow: 0 0 12px var(--green); animation: pulse 1.5s infinite; }
-        .status-dot.offline { background: var(--red); }
-        @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
-        .stats-row { display: flex; gap: 16px; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg: #07070e;
+            --card: rgba(18, 18, 26, 0.75);
+            --border: rgba(255, 255, 255, 0.06);
+            --accent: #7c3aed;
+            --accent2: #a78bfa;
+            --gold: #f59e0b;
+            --text: #f1f5f9;
+            --text2: #94a3b8;
+            --green: #10b981;
+            --red: #ef4444;
+            --glass: rgba(18, 18, 26, 0.65);
+            --blur: 20px;
+            --radius: 28px;
+            --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            overflow-x: hidden;
+            font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+        canvas { position: fixed; top: 0; left: 0; z-index: -1; opacity: 0.15; }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Анимация появления */
+        .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.7s ease, transform 0.7s ease;
+        }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+
+        .header {
+            text-align: center;
+            padding: 30px 0 15px;
+        }
+        .header h1 {
+            font-size: 52px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #c4b5fd, #fbbf24, #c4b5fd);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradientShift 4s ease infinite;
+            margin-bottom: 8px;
+            letter-spacing: -1.5px;
+        }
+        @keyframes gradientShift {
+            0% { background-position: 0% center; }
+            50% { background-position: 100% center; }
+            100% { background-position: 0% center; }
+        }
+        .subtitle {
+            color: var(--text2);
+            font-size: 13px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+        .random-emoji {
+            display: inline-block;
+            font-size: 34px;
+            animation: bounceEmoji 1.2s ease infinite;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        @keyframes bounceEmoji {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-12px); }
+        }
+
+        /* Стеклянная карточка */
+        .glass-card {
+            background: var(--glass);
+            backdrop-filter: blur(var(--blur));
+            -webkit-backdrop-filter: blur(var(--blur));
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 22px 28px;
+            margin: 20px 0;
+            box-shadow: 0 25px 45px -15px rgba(0,0,0,0.7), 0 0 0 1px rgba(124,58,237,0.15);
+            transition: box-shadow var(--transition), transform var(--transition);
+        }
+        .glass-card:hover {
+            box-shadow: 0 30px 55px -15px rgba(124,58,237,0.25), 0 0 0 1px rgba(124,58,237,0.35);
+            transform: translateY(-2px);
+        }
+
+        .status-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .status-info { display: flex; align-items: center; gap: 12px; }
+        .status-dot {
+            width: 16px; height: 16px;
+            border-radius: 50%;
+            transition: all 0.3s;
+        }
+        .status-dot.online { background: var(--green); box-shadow: 0 0 22px var(--green); animation: pulse 2s infinite; }
+        .status-dot.offline { background: var(--red); box-shadow: 0 0 22px var(--red); }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.7; transform: scale(1.1); }
+        }
+        .status-text { font-size: 20px; font-weight: 700; }
+        .online-text { color: var(--green); }
+        .offline-text { color: var(--red); }
+
+        .stats-row { display: flex; gap: 30px; flex-wrap: wrap; align-items: center; }
         .stat-item { text-align: center; }
-        .stat-value { font-size: 18px; font-weight: 800; background: linear-gradient(135deg, var(--accent2), var(--gold)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .stat-label { font-size: 9px; color: var(--text2); text-transform: uppercase; }
-        
-        /* ВКЛАДКИ */
-        .tabs { display: flex; gap: 4px; margin-bottom: 0; background: var(--card); border-radius: 16px 16px 0 0; padding: 4px; border: 1px solid var(--border); border-bottom: none; }
-        .tab { flex: 1; padding: 12px; text-align: center; cursor: pointer; border-radius: 12px; font-size: 13px; font-weight: 600; transition: all 0.3s; color: var(--text2); border: none; background: transparent; }
-        .tab.active { background: var(--accent); color: white; }
-        .tab:hover:not(.active) { color: var(--text); background: rgba(255,255,255,0.03); }
-        
-        .table-wrapper { background: var(--card); border: 1px solid var(--border); border-radius: 0 0 16px 16px; overflow: hidden; }
-        .table-scroll { max-height: 60vh; overflow-y: auto; }
+        .stat-value {
+            font-size: 26px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #c4b5fd, #fbbf24);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .stat-label { font-size: 10px; color: var(--text2); text-transform: uppercase; letter-spacing: 1.5px; margin-top: 4px; }
+
+        /* Таймер с прогресс-баром */
+        .reward-timer {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: var(--text2);
+            background: rgba(124,58,237,0.12);
+            padding: 10px 20px;
+            border-radius: 40px;
+            white-space: nowrap;
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(124,58,237,0.25);
+        }
+        .timer-icon { font-size: 18px; }
+        .timer-value { font-weight: 700; color: var(--accent2); }
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 2px;
+            margin-top: 12px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent), var(--accent2));
+            border-radius: 2px;
+            transition: width 0.5s linear;
+        }
+
+        /* График */
+        .sparkline-container {
+            background: var(--glass);
+            backdrop-filter: blur(var(--blur));
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 20px 35px -12px rgba(0,0,0,0.6);
+        }
+        .sparkline-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .sparkline-header h3 { font-size: 16px; font-weight: 600; color: var(--accent2); }
+        canvas { display: block; width: 100%; height: 80px; }
+
+        /* Быстрые ссылки */
+        .quick-links {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 30px 0 15px;
+        }
+        .quick-link {
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 14px 26px;
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all var(--transition);
+            box-shadow: 0 10px 18px -8px rgba(0,0,0,0.4);
+        }
+        .quick-link:hover {
+            background: rgba(124,58,237,0.2);
+            border-color: var(--accent);
+            transform: translateY(-3px);
+            box-shadow: 0 18px 28px -8px rgba(124,58,237,0.3);
+        }
+        .quick-link.primary {
+            background: linear-gradient(135deg, #7c3aed, #5b21b6);
+            border: none;
+            color: white;
+            box-shadow: 0 0 28px rgba(124,58,237,0.6);
+            animation: glowPulse 3s infinite;
+        }
+        @keyframes glowPulse {
+            0%, 100% { box-shadow: 0 0 28px rgba(124,58,237,0.6); }
+            50% { box-shadow: 0 0 48px rgba(124,58,237,0.9); }
+        }
+
+        /* Вкладки */
+        .tabs {
+            display: flex;
+            gap: 6px;
+            background: var(--glass);
+            border-radius: 30px 30px 0 0;
+            padding: 6px;
+            border: 1px solid var(--border);
+            border-bottom: none;
+            margin-top: 25px;
+            backdrop-filter: blur(20px);
+        }
+        .tab {
+            flex: 1;
+            padding: 12px 10px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 24px;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all var(--transition);
+            color: var(--text2);
+            border: none;
+            background: transparent;
+        }
+        .tab.active {
+            background: var(--accent);
+            color: white;
+            box-shadow: 0 0 22px rgba(124,58,237,0.6);
+        }
+        .tab:hover:not(.active) { color: var(--text); background: rgba(255,255,255,0.04); }
+
+        .table-wrapper {
+            background: var(--glass);
+            border: 1px solid var(--border);
+            border-radius: 0 0 var(--radius) var(--radius);
+            overflow: hidden;
+            backdrop-filter: blur(var(--blur));
+            box-shadow: 0 25px 45px -12px rgba(0,0,0,0.7);
+        }
+        .table-scroll { max-height: 55vh; overflow-y: auto; }
         table { width: 100%; border-collapse: collapse; }
-        thead { position: sticky; top: 0; z-index: 10; background: #0e0e16; }
-        th { padding: 12px 14px; text-align: left; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--text2); border-bottom: 1px solid var(--border); }
-        td { padding: 11px 14px; border-bottom: 1px solid rgba(30,30,48,0.4); font-size: 13px; }
-        tbody tr:hover { background: rgba(124,58,237,0.04); }
-        
-        .rank { font-weight: 800; font-size: 15px; }
-        .rank-1 { color: #f59e0b; }
-        .rank-2 { color: #94a3b8; }
-        .rank-3 { color: #cd853f; }
-        .premium-badge { display: inline-block; background: linear-gradient(135deg,#f59e0b,#d97706); color:#000; font-size:9px; padding:1px 6px; border-radius:10px; margin-left:4px; }
+        thead {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: rgba(18,18,26,0.95);
+            backdrop-filter: blur(12px);
+        }
+        th {
+            padding: 16px 20px;
+            text-align: left;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text2);
+            border-bottom: 1px solid var(--border);
+        }
+        td { padding: 15px 20px; border-bottom: 1px solid rgba(255,255,255,0.03); font-size: 14px; }
+        tbody tr { transition: background 0.2s; }
+        tbody tr:hover { background: rgba(124,58,237,0.08); }
+
+        .rank { font-weight: 800; font-size: 16px; }
+        .rank-1 { color: #fbbf24; font-size: 22px; }
+        .rank-2 { color: #a0aec0; font-size: 20px; }
+        .rank-3 { color: #d4a574; font-size: 18px; }
+        .premium-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: #000;
+            font-size: 10px;
+            padding: 2px 8px;
+            border-radius: 12px;
+            margin-left: 6px;
+            font-weight: 700;
+        }
         .diamonds { color: var(--accent2); font-weight: 600; }
         .time { color: var(--text2); font-size: 11px; }
         .green-text { color: var(--green); }
-        .footer { text-align: center; padding: 20px; color: #475569; font-size: 11px; }
-        
+
         .tab-content { display: none; }
-        .tab-content.active { display: block; }
-        
+        .tab-content.active { display: block; animation: fadeIn 0.35s ease; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+        .update-badge {
+            color: var(--text2);
+            font-size: 11px;
+            text-align: right;
+            margin-top: 8px;
+            opacity: 0.7;
+        }
+
+        .time-mini {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 12px;
+            color: var(--text2);
+            opacity: 0.65;
+            z-index: 2;
+            text-align: right;
+            background: rgba(0,0,0,0.35);
+            padding: 8px 14px;
+            border-radius: 20px;
+            backdrop-filter: blur(6px);
+            border: 1px solid rgba(255,255,255,0.03);
+        }
+        .time-mini .time-val { font-weight: 600; }
+        .time-mini .tz-badge { font-size: 10px; }
+
+        .footer {
+            text-align: center;
+            padding: 30px 0 20px;
+            color: #475569;
+            font-size: 12px;
+            border-top: 1px solid rgba(255,255,255,0.03);
+            margin-top: 40px;
+        }
+        .footer a { color: var(--accent2); text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+
         @media (max-width: 768px) {
-            .header h1 { font-size: 24px; }
-            .tabs { flex-wrap: wrap; }
-            .tab { font-size: 11px; padding: 10px 8px; }
+            .header h1 { font-size: 34px; }
+            .tabs { flex-wrap: wrap; border-radius: 24px 24px 0 0; }
+            .tab { font-size: 13px; padding: 10px 8px; }
+            .status-row { flex-direction: column; align-items: flex-start; }
+            .quick-links { flex-direction: column; align-items: center; }
+            .quick-link { width: 100%; justify-content: center; }
         }
     </style>
 </head>
 <body>
+    <canvas id="bgCanvas"></canvas>
+
     <div class="container">
-        <div class="header">
-            <h1>🏆 FlexStrong Bot</h1>
+        <div class="time-mini" id="timeMini">
+            <div class="time-val" id="miniTime">--:--</div>
+            <div class="tz-badge" id="miniTZ">---</div>
         </div>
-        
-        <div class="status-card">
-            <div style="display:flex;align-items:center;gap:10px;">
-                <span class="status-dot online" id="statusDot"></span>
-                <span id="statusText" style="font-weight:700;">🟢 Онлайн</span>
-            </div>
-            <div class="stats-row">
-                <div class="stat-item"><div class="stat-value" id="totalUsers">—</div><div class="stat-label">Юзеров</div></div>
-                <div class="stat-item"><div class="stat-value" id="premiumUsers">—</div><div class="stat-label">Premium</div></div>
-                <div class="stat-item"><div class="stat-value" id="totalDiamonds">—</div><div class="stat-label">Алмазов</div></div>
-            </div>
-            <span id="updateTime" style="font-size:11px;color:var(--text2);">—</span>
+
+        <div class="header reveal">
+            <h1>
+                🏆 FlexStrong Bot
+                <span class="random-emoji" id="randomEmoji">🚀</span>
+            </h1>
+            <div class="subtitle">Live Рейтинг • Аналитика</div>
         </div>
-        
-        <!-- ВКЛАДКИ -->
-        <div class="tabs">
+
+        <div class="glass-card reveal" id="statusCard">
+            <div class="status-row">
+                <div class="status-info">
+                    <span class="status-dot online" id="statusDot"></span>
+                    <span class="status-text online-text" id="statusText">🟢 Онлайн</span>
+                </div>
+                <div class="stats-row">
+                    <div class="stat-item"><div class="stat-value" id="totalUsers">—</div><div class="stat-label">Юзеров</div></div>
+                    <div class="stat-item"><div class="stat-value" id="premiumUsers">—</div><div class="stat-label">Premium</div></div>
+                    <div class="stat-item"><div class="stat-value" id="totalDiamonds">—</div><div class="stat-label">Алмазов</div></div>
+                </div>
+                <div class="reward-timer">
+                    <span class="timer-icon">🏆</span>
+                    <span>До наград ТОПа:</span>
+                    <span class="timer-value" id="miniRewardTimer">—</span>
+                </div>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" id="rewardProgress" style="width:0%"></div></div>
+            <div class="update-badge" id="updateTime">Загрузка...</div>
+        </div>
+
+        <div class="sparkline-container reveal">
+            <div class="sparkline-header">
+                <h3>📈 Топ‑10 рейтинга (live)</h3>
+                <span style="font-size:12px; color:var(--text2);">рейтинг →</span>
+            </div>
+            <canvas id="sparklineCanvas"></canvas>
+        </div>
+
+        <div class="quick-links reveal">
+            <a href="https://t.me/FLEX_SELL" target="_blank" class="quick-link">
+                📢 Канал FlexStrong
+            </a>
+            <a href="https://t.me/FlexStrong_bot" target="_blank" class="quick-link primary">
+                🤖 Открыть бота
+            </a>
+            <a href="https://t.me/shina_sell" target="_blank" class="quick-link">
+                👨‍💻 Поддержка
+            </a>
+        </div>
+
+        <div class="tabs reveal" id="tabsContainer">
             <button class="tab active" onclick="switchTab('rating')">🏆 Рейтинг</button>
             <button class="tab" onclick="switchTab('spends')">💎 Траты</button>
             <button class="tab" onclick="switchTab('premium')">⭐ Premium</button>
             <button class="tab" onclick="switchTab('topspenders')">🔥 ТОП трат</button>
         </div>
-        
-        <div class="table-wrapper">
+
+        <div class="table-wrapper reveal" id="tableWrapper">
             <div class="table-scroll">
-                <!-- Вкладка Рейтинг -->
                 <div class="tab-content active" id="tab-rating">
                     <table>
                         <thead><tr><th>#</th><th>Пользователь</th><th>💎</th><th>Рейтинг</th></tr></thead>
                         <tbody id="ratingBody"><tr><td colspan="4">Загрузка...</td></tr></tbody>
                     </table>
                 </div>
-                
-                <!-- Вкладка Траты -->
                 <div class="tab-content" id="tab-spends">
                     <table>
                         <thead><tr><th>Пользователь</th><th>💎 Потрачено</th><th>Действие</th><th>Время</th></tr></thead>
                         <tbody id="spendsBody"><tr><td colspan="4">Загрузка...</td></tr></tbody>
                     </table>
                 </div>
-                
-                <!-- Вкладка Premium -->
                 <div class="tab-content" id="tab-premium">
                     <table>
                         <thead><tr><th>Пользователь</th><th>⭐ Дней</th><th>Время</th></tr></thead>
                         <tbody id="premiumBody"><tr><td colspan="3">Загрузка...</td></tr></tbody>
                     </table>
                 </div>
-                
-                <!-- Вкладка ТОП трат -->
                 <div class="tab-content" id="tab-topspenders">
                     <table>
                         <thead><tr><th>#</th><th>Пользователь</th><th>💎 Всего потрачено</th></tr></thead>
@@ -117,40 +454,162 @@
                 </div>
             </div>
         </div>
-        
-        <div class="footer">FlexStrong Bot © 2026</div>
+
+        <div class="footer reveal">
+            <p>© 2026 FlexStrong Bot | <a href="https://t.me/FlexStrong_bot" target="_blank">@FlexStrong_bot</a></p>
+        </div>
     </div>
-    
+
     <script>
         const DATA_URL = 'site_data.json';
         const medals = { 1: '🥇', 2: '🥈', 3: '🥉' };
-        
+        let cachedTop = [];
+
+        // Intersection Observer для анимации появления
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        const emojis = ['🚀', '🔥', '⚡', '💎', '🌟', '🎯', '🏆', '👑', '💜', '✨'];
+        function randomizeEmoji() {
+            document.getElementById('randomEmoji').textContent = emojis[Math.floor(Math.random() * emojis.length)];
+        }
+        setInterval(randomizeEmoji, 3000);
+        randomizeEmoji();
+
+        function updateMiniTime() {
+            const now = new Date();
+            document.getElementById('miniTime').textContent = now.toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit' });
+            const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            const offset = -now.getTimezoneOffset() / 60;
+            document.getElementById('miniTZ').textContent = `${tz.replace('_',' ')} (UTC${offset >= 0 ? '+' + offset : offset})`;
+        }
+        setInterval(updateMiniTime, 10000);
+        updateMiniTime();
+
+        function updateRewardTimer() {
+            const now = new Date();
+            const day = now.getUTCDay();
+            const hoursUTC = now.getUTCHours();
+            let targetUTC;
+            if (day === 0 && hoursUTC >= 21) {
+                targetUTC = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 7, 21, 0, 0));
+            } else if (day === 0 && hoursUTC < 21) {
+                targetUTC = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), 21, 0, 0));
+            } else {
+                const daysUntilSunday = (7 - day) % 7;
+                targetUTC = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + daysUntilSunday, 21, 0, 0));
+            }
+            const diffMs = targetUTC - now;
+            const weekMs = 7 * 24 * 60 * 60 * 1000;
+            if (diffMs <= 0) {
+                document.getElementById('miniRewardTimer').textContent = 'выдаются!';
+                document.getElementById('rewardProgress').style.width = '100%';
+                return;
+            }
+            const totalSeconds = Math.floor(diffMs / 1000);
+            const days = Math.floor(totalSeconds / 86400);
+            const hours = Math.floor((totalSeconds % 86400) / 3600);
+            const minutes = Math.floor((totalSeconds % 3600) / 60);
+            const seconds = totalSeconds % 60;
+            document.getElementById('miniRewardTimer').textContent = `${days}д ${hours}ч ${minutes}м ${seconds}с`;
+            document.getElementById('rewardProgress').style.width = ((1 - diffMs / weekMs) * 100).toFixed(1) + '%';
+        }
+        setInterval(updateRewardTimer, 1000);
+        updateRewardTimer();
+
         function switchTab(name) {
             document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
             document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
             document.querySelector(`.tab[onclick="switchTab('${name}')"]`).classList.add('active');
             document.getElementById('tab-' + name).classList.add('active');
         }
-        
+
         function formatNumber(num) {
             if (num >= 1000000) return (num/1000000).toFixed(1)+'M';
             if (num >= 1000) return (num/1000).toFixed(1)+'K';
             return num.toString();
         }
-        
+
+        function drawSparkline(topUsers) {
+            const canvas = document.getElementById('sparklineCanvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            const container = canvas.parentElement;
+            canvas.width = container.clientWidth - 40;
+            canvas.height = 80;
+
+            if (!topUsers.length) {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                return;
+            }
+
+            const ratings = topUsers.map(u => u.rating);
+            const max = Math.max(...ratings);
+            const min = Math.min(...ratings);
+            const range = max - min || 1;
+
+            const points = ratings.map((r, i) => ({
+                x: (i / (ratings.length - 1)) * (canvas.width - 20) + 10,
+                y: canvas.height - 15 - ((r - min) / range) * (canvas.height - 30)
+            }));
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            ctx.beginPath();
+            ctx.moveTo(points[0].x, points[0].y);
+            for (let i = 1; i < points.length; i++) {
+                ctx.lineTo(points[i].x, points[i].y);
+            }
+            ctx.strokeStyle = '#a78bfa';
+            ctx.lineWidth = 2.5;
+            ctx.stroke();
+
+            points.forEach((p, idx) => {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, idx === 0 || idx === points.length-1 ? 4.5 : 3, 0, Math.PI*2);
+                ctx.fillStyle = idx === 0 ? '#fbbf24' : (idx === points.length-1 ? '#7c3aed' : '#c4b5fd');
+                ctx.fill();
+            });
+
+            ctx.fillStyle = '#94a3b8';
+            ctx.font = '10px Inter, sans-serif';
+            ctx.fillText('1', points[0].x-5, canvas.height-2);
+            ctx.fillText(topUsers.length, points[points.length-1].x-5, canvas.height-2);
+        }
+
         async function loadData() {
             try {
                 const res = await fetch(DATA_URL + '?t=' + Date.now());
                 const data = await res.json();
-                
+                if (!data) return;
+
                 document.getElementById('totalUsers').textContent = formatNumber(data.stats.total_users);
                 document.getElementById('premiumUsers').textContent = formatNumber(data.stats.premium_users);
                 document.getElementById('totalDiamonds').textContent = formatNumber(data.stats.total_diamonds);
-                document.getElementById('updateTime').textContent = data.timestamp || '—';
-                
-                // Рейтинг
+                document.getElementById('updateTime').textContent = data.timestamp ? 'Обновлено: ' + data.timestamp : '';
+                const dot = document.getElementById('statusDot');
+                const txt = document.getElementById('statusText');
+                if (data.online) {
+                    dot.className = 'status-dot online';
+                    txt.className = 'status-text online-text';
+                    txt.textContent = '🟢 Онлайн';
+                } else {
+                    dot.className = 'status-dot offline';
+                    txt.className = 'status-text offline-text';
+                    txt.textContent = '🔴 Оффлайн';
+                }
+
+                cachedTop = data.top || [];
+                drawSparkline(cachedTop.slice(0, 10));
+
                 let html = '';
-                data.top.forEach(user => {
+                cachedTop.forEach(user => {
                     const medal = medals[user.position] || user.position + '.';
                     let rankClass = user.position <= 3 ? ' rank-' + user.position : '';
                     const premiumBadge = user.is_premium ? ' <span class="premium-badge">👑</span>' : '';
@@ -162,8 +621,7 @@
                     </tr>`;
                 });
                 document.getElementById('ratingBody').innerHTML = html || '<tr><td colspan="4">Нет данных</td></tr>';
-                
-                // Траты
+
                 html = '';
                 (data.recent_spends || []).forEach(s => {
                     html += `<tr>
@@ -174,8 +632,7 @@
                     </tr>`;
                 });
                 document.getElementById('spendsBody').innerHTML = html || '<tr><td colspan="4">Нет трат</td></tr>';
-                
-                // Premium покупки
+
                 html = '';
                 (data.recent_premium || []).forEach(p => {
                     html += `<tr>
@@ -185,8 +642,7 @@
                     </tr>`;
                 });
                 document.getElementById('premiumBody').innerHTML = html || '<tr><td colspan="3">Нет покупок</td></tr>';
-                
-                // ТОП трат
+
                 html = '';
                 (data.top_spenders || []).forEach((s, i) => {
                     const medal = medals[i+1] || (i+1) + '.';
@@ -197,14 +653,60 @@
                     </tr>`;
                 });
                 document.getElementById('topSpendersBody').innerHTML = html || '<tr><td colspan="3">Нет данных</td></tr>';
-                
+
             } catch (e) {
                 console.error(e);
             }
         }
-        
         loadData();
-        setInterval(loadData, 30000);
+        setInterval(loadData, 60000);
+
+        // Частицы фона
+        const canvas = document.getElementById('bgCanvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        class Particle {
+            constructor() {
+                this.reset();
+            }
+            reset() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * 2 + 0.5;
+                this.speedX = (Math.random() - 0.5) * 0.3;
+                this.speedY = (Math.random() - 0.5) * 0.3;
+                this.opacity = Math.random() * 0.5 + 0.1;
+            }
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+                if (this.x < 0 || this.x > canvas.width || this.y < 0 || this.y > canvas.height) {
+                    this.reset();
+                }
+            }
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(124, 58, 237, ${this.opacity})`;
+                ctx.fill();
+            }
+        }
+
+        for (let i = 0; i < 100; i++) particles.push(new Particle());
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles.forEach(p => { p.update(); p.draw(); });
+            requestAnimationFrame(animate);
+        }
+        animate();
     </script>
 </body>
 </html>
