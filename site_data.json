@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "06.06.2026 09:26:18",
+  "timestamp": "06.06.2026 09:26:50",
   "stats": {
     "total_users": 309,
     "premium_users": 5,
-    "total_diamonds": 11572
+    "total_diamonds": 11570
   },
   "top": [
     {
@@ -169,23 +169,13 @@
       "percent": 0.1
     },
     {
-      "user_id": 5605527808,
-      "username": "SERGUNEC2",
-      "name": "SERGUNEC R5 5500хSRAM LEVL",
-      "diamonds": 12,
-      "rating": 122,
-      "is_premium": false,
-      "position": 17,
-      "percent": 0.1
-    },
-    {
       "user_id": 8440455988,
       "username": "Mlshael",
       "name": "Mishael ✟",
       "diamonds": 12,
       "rating": 120,
       "is_premium": false,
-      "position": 18,
+      "position": 17,
       "percent": 0.1
     },
     {
@@ -195,7 +185,7 @@
       "diamonds": 8,
       "rating": 112,
       "is_premium": false,
-      "position": 19,
+      "position": 18,
       "percent": 0.1
     },
     {
@@ -205,7 +195,7 @@
       "diamonds": 0,
       "rating": 110,
       "is_premium": false,
-      "position": 20,
+      "position": 19,
       "percent": 0.1
     },
     {
@@ -215,7 +205,7 @@
       "diamonds": 8,
       "rating": 108,
       "is_premium": false,
-      "position": 21,
+      "position": 20,
       "percent": 0.1
     },
     {
@@ -225,7 +215,7 @@
       "diamonds": 7,
       "rating": 108,
       "is_premium": false,
-      "position": 22,
+      "position": 21,
       "percent": 0.1
     },
     {
@@ -234,6 +224,16 @@
       "name": "Solomka",
       "diamonds": 10,
       "rating": 106,
+      "is_premium": false,
+      "position": 22,
+      "percent": 0.1
+    },
+    {
+      "user_id": 5605527808,
+      "username": "SERGUNEC2",
+      "name": "SERGUNEC R5 5500хSRAM LEVL",
+      "diamonds": 10,
+      "rating": 104,
       "is_premium": false,
       "position": 23,
       "percent": 0.1
@@ -1015,6 +1015,13 @@
       "name": "SERGUNEC R5 5500хSRAM LEVL",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-06 09:26:36"
+    },
+    {
+      "user_id": 5605527808,
+      "name": "SERGUNEC R5 5500хSRAM LEVL",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-06 09:24:02"
     },
     {
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-06 03:12:49"
-    },
-    {
-      "user_id": 8328030781,
-      "name": "Тайный",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-06 03:12:45"
     }
   ],
   "recent_premium": [],
@@ -1209,6 +1209,11 @@
       "total_spent": 6
     },
     {
+      "user_id": 5605527808,
+      "name": "SERGUNEC R5 5500хSRAM LEVL",
+      "total_spent": 4
+    },
+    {
       "user_id": 8369033791,
       "name": "Ento",
       "total_spent": 2
@@ -1221,11 +1226,6 @@
     {
       "user_id": 5683175036,
       "name": "@HET_ZAK0HY #1312🙋",
-      "total_spent": 2
-    },
-    {
-      "user_id": 5605527808,
-      "name": "SERGUNEC R5 5500хSRAM LEVL",
       "total_spent": 2
     },
     {
