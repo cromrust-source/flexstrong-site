@@ -1,7 +1,7 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "06.06.2026 02:57:48",
+  "timestamp": "06.06.2026 03:02:50",
   "stats": {
     "total_users": 307,
     "premium_users": 5,
@@ -753,7 +753,7 @@
       "username": "Ento_Offlical",
       "name": "Ento",
       "diamonds": 0,
-      "rating": 66,
+      "rating": 68,
       "is_premium": false,
       "position": 75,
       "percent": 0.1
@@ -1011,6 +1011,13 @@
   ],
   "recent_spends": [
     {
+      "user_id": 8369033791,
+      "name": "Ento",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-06 02:59:44"
+    },
+    {
       "user_id": 7385436078,
       "name": "...",
       "amount": 2,
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-05 19:15:42"
-    },
-    {
-      "user_id": 6081755618,
-      "name": "Артем",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-05 19:15:41"
     }
   ],
   "recent_premium": [],
@@ -1187,6 +1187,11 @@
       "user_id": 7385436078,
       "name": "...",
       "total_spent": 8
+    },
+    {
+      "user_id": 8369033791,
+      "name": "Ento",
+      "total_spent": 2
     },
     {
       "user_id": 6332337706,
