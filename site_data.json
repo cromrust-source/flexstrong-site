@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "06.06.2026 11:15:58",
+  "timestamp": "06.06.2026 11:16:30",
   "stats": {
     "total_users": 311,
     "premium_users": 5,
-    "total_diamonds": 11559
+    "total_diamonds": 11557
   },
   "top": [
     {
@@ -159,21 +159,21 @@
       "percent": 0.2
     },
     {
-      "user_id": 5124467316,
-      "username": "dekox3",
-      "name": "$wa$ton_$winota",
-      "diamonds": 14,
-      "rating": 140,
-      "is_premium": false,
-      "position": 16,
-      "percent": 0.1
-    },
-    {
       "user_id": 7577606756,
       "username": "Maxels333",
       "name": "Maxel's™",
       "diamonds": 1,
       "rating": 130,
+      "is_premium": false,
+      "position": 16,
+      "percent": 0.1
+    },
+    {
+      "user_id": 5124467316,
+      "username": "dekox3",
+      "name": "$wa$ton_$winota",
+      "diamonds": 12,
+      "rating": 122,
       "is_premium": false,
       "position": 17,
       "percent": 0.1
@@ -1011,6 +1011,13 @@
   ],
   "recent_spends": [
     {
+      "user_id": 5124467316,
+      "name": "$wa$ton_$winota",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-06 11:16:19"
+    },
+    {
       "user_id": 8550419112,
       "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
       "amount": 2,
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-06 10:46:47"
-    },
-    {
-      "user_id": 1641622800,
-      "name": "Litput",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-06 10:29:44"
     }
   ],
   "recent_premium": [],
