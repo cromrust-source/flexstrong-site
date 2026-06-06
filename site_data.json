@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "06.06.2026 03:12:53",
+  "timestamp": "06.06.2026 03:17:55",
   "stats": {
     "total_users": 308,
     "premium_users": 5,
-    "total_diamonds": 11550
+    "total_diamonds": 11548
   },
   "top": [
     {
@@ -1015,6 +1015,13 @@
       "name": "Тайный",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-06 03:12:55"
+    },
+    {
+      "user_id": 8328030781,
+      "name": "Тайный",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-06 03:12:52"
     },
     {
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-05 19:15:46"
-    },
-    {
-      "user_id": 6081755618,
-      "name": "Артем",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-05 19:15:44"
     }
   ],
   "recent_premium": [],
@@ -1179,6 +1179,11 @@
       "total_spent": 8
     },
     {
+      "user_id": 8328030781,
+      "name": "Тайный",
+      "total_spent": 8
+    },
+    {
       "user_id": 8281581760,
       "name": "Where is my mind?",
       "total_spent": 8
@@ -1187,11 +1192,6 @@
       "user_id": 7385436078,
       "name": "...",
       "total_spent": 8
-    },
-    {
-      "user_id": 8328030781,
-      "name": "Тайный",
-      "total_spent": 6
     },
     {
       "user_id": 8369033791,
