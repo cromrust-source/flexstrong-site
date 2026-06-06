@@ -1,7 +1,7 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "06.06.2026 12:36:10",
+  "timestamp": "06.06.2026 12:36:11",
   "stats": {
     "total_users": 311,
     "premium_users": 5,
@@ -1015,6 +1015,13 @@
       "name": "артём",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-06 12:36:10"
+    },
+    {
+      "user_id": 5660992957,
+      "name": "артём",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-06 12:35:54"
     },
     {
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-06 12:14:06"
-    },
-    {
-      "user_id": 6081755618,
-      "name": "Артем",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-06 12:14:02"
     }
   ],
   "recent_premium": [],
@@ -1214,13 +1214,13 @@
       "total_spent": 12
     },
     {
-      "user_id": 8458486577,
-      "name": ".",
-      "total_spent": 10
-    },
-    {
       "user_id": 5660992957,
       "name": "артём",
+      "total_spent": 12
+    },
+    {
+      "user_id": 8458486577,
+      "name": ".",
       "total_spent": 10
     },
     {
