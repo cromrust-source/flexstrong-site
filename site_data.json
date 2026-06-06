@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "06.06.2026 08:26:47",
+  "timestamp": "06.06.2026 08:27:19",
   "stats": {
     "total_users": 309,
     "premium_users": 5,
-    "total_diamonds": 11554
+    "total_diamonds": 11556
   },
   "top": [
     {
@@ -282,7 +282,7 @@
       "user_id": 1394034854,
       "username": "plategabottest",
       "name": "PLATEGA",
-      "diamonds": 6,
+      "diamonds": 8,
       "rating": 82,
       "is_premium": false,
       "position": 28,
