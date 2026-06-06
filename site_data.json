@@ -1,7 +1,7 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "06.06.2026 19:11:42",
+  "timestamp": "06.06.2026 19:12:14",
   "stats": {
     "total_users": 311,
     "premium_users": 5,
@@ -859,9 +859,9 @@
       "percent": 0.1
     },
     {
-      "user_id": 7993351874,
-      "username": "yaaxxh",
-      "name": "Максим",
+      "user_id": 6429942137,
+      "username": "ankanest",
+      "name": "анканест",
       "diamonds": 0,
       "rating": 56,
       "is_premium": false,
@@ -869,19 +869,19 @@
       "percent": 0.1
     },
     {
-      "user_id": 5660992957,
-      "username": "Anomaly163",
-      "name": "артём",
+      "user_id": 7993351874,
+      "username": "yaaxxh",
+      "name": "Максим",
       "diamonds": 0,
-      "rating": 54,
+      "rating": 56,
       "is_premium": false,
       "position": 87,
       "percent": 0.1
     },
     {
-      "user_id": 6429942137,
-      "username": "ankanest",
-      "name": "анканест",
+      "user_id": 5660992957,
+      "username": "Anomaly163",
+      "name": "артём",
       "diamonds": 0,
       "rating": 54,
       "is_premium": false,
@@ -1015,6 +1015,13 @@
       "name": "анканест",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-06 19:11:46"
+    },
+    {
+      "user_id": 6429942137,
+      "name": "анканест",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-06 19:11:11"
     },
     {
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-06 13:56:04"
-    },
-    {
-      "user_id": 1641331137,
-      "name": "Ilya",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-06 13:55:59"
     }
   ],
   "recent_premium": [],
