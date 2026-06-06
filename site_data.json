@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "06.06.2026 11:25:32",
+  "timestamp": "06.06.2026 11:26:04",
   "stats": {
     "total_users": 311,
     "premium_users": 5,
-    "total_diamonds": 11549
+    "total_diamonds": 11545
   },
   "top": [
     {
@@ -159,23 +159,13 @@
       "percent": 0.2
     },
     {
-      "user_id": 5022684179,
-      "username": "erakaz7",
-      "name": "h4ZeX",
-      "diamonds": 4,
-      "rating": 148,
-      "is_premium": false,
-      "position": 16,
-      "percent": 0.1
-    },
-    {
       "user_id": 7577606756,
       "username": "Maxels333",
       "name": "Maxel's™",
       "diamonds": 1,
       "rating": 130,
       "is_premium": false,
-      "position": 17,
+      "position": 16,
       "percent": 0.1
     },
     {
@@ -185,7 +175,7 @@
       "diamonds": 12,
       "rating": 120,
       "is_premium": false,
-      "position": 18,
+      "position": 17,
       "percent": 0.1
     },
     {
@@ -194,6 +184,16 @@
       "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
       "diamonds": 0,
       "rating": 116,
+      "is_premium": false,
+      "position": 18,
+      "percent": 0.1
+    },
+    {
+      "user_id": 5022684179,
+      "username": "erakaz7",
+      "name": "h4ZeX",
+      "diamonds": 0,
+      "rating": 112,
       "is_premium": false,
       "position": 19,
       "percent": 0.1
@@ -1015,6 +1015,20 @@
       "name": "h4ZeX",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-06 11:25:53"
+    },
+    {
+      "user_id": 5022684179,
+      "name": "h4ZeX",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-06 11:25:51"
+    },
+    {
+      "user_id": 5022684179,
+      "name": "h4ZeX",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-06 11:24:45"
     },
     {
@@ -1135,20 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-06 11:17:07"
-    },
-    {
-      "user_id": 5124467316,
-      "name": "$wa$ton_$winota",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-06 11:16:50"
-    },
-    {
-      "user_id": 5124467316,
-      "name": "$wa$ton_$winota",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-06 11:16:34"
     }
   ],
   "recent_premium": [],
@@ -1164,6 +1164,11 @@
       "total_spent": 20
     },
     {
+      "user_id": 5022684179,
+      "name": "h4ZeX",
+      "total_spent": 20
+    },
+    {
       "user_id": 8550419112,
       "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
       "total_spent": 18
@@ -1172,11 +1177,6 @@
       "user_id": 5282810883,
       "name": "Кирилл",
       "total_spent": 18
-    },
-    {
-      "user_id": 5022684179,
-      "name": "h4ZeX",
-      "total_spent": 16
     },
     {
       "user_id": 8694804281,
