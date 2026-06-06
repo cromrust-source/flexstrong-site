@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "06.06.2026 11:55:20",
+  "timestamp": "06.06.2026 11:55:30",
   "stats": {
     "total_users": 311,
     "premium_users": 5,
-    "total_diamonds": 11572
+    "total_diamonds": 11582
   },
   "top": [
     {
@@ -119,13 +119,23 @@
       "percent": 0.2
     },
     {
+      "user_id": 7327000838,
+      "username": "yaitseklityna",
+      "name": "jobVini",
+      "diamonds": 16,
+      "rating": 192,
+      "is_premium": false,
+      "position": 12,
+      "percent": 0.2
+    },
+    {
       "user_id": 8031380265,
       "username": "OOOOO0OOOOOOOOOOOOOOO",
       "name": "Zxc #мёртвый#плохой#zxc",
       "diamonds": 0,
       "rating": 192,
       "is_premium": false,
-      "position": 12,
+      "position": 13,
       "percent": 0.2
     },
     {
@@ -135,7 +145,7 @@
       "diamonds": 12,
       "rating": 190,
       "is_premium": false,
-      "position": 13,
+      "position": 14,
       "percent": 0.2
     },
     {
@@ -145,7 +155,7 @@
       "diamonds": 0,
       "rating": 158,
       "is_premium": false,
-      "position": 14,
+      "position": 15,
       "percent": 0.2
     },
     {
@@ -155,7 +165,7 @@
       "diamonds": 0,
       "rating": 154,
       "is_premium": false,
-      "position": 15,
+      "position": 16,
       "percent": 0.2
     },
     {
@@ -165,7 +175,7 @@
       "diamonds": 10,
       "rating": 136,
       "is_premium": false,
-      "position": 16,
+      "position": 17,
       "percent": 0.1
     },
     {
@@ -175,7 +185,7 @@
       "diamonds": 1,
       "rating": 130,
       "is_premium": false,
-      "position": 17,
+      "position": 18,
       "percent": 0.1
     },
     {
@@ -185,7 +195,7 @@
       "diamonds": 12,
       "rating": 120,
       "is_premium": false,
-      "position": 18,
+      "position": 19,
       "percent": 0.1
     },
     {
@@ -195,7 +205,7 @@
       "diamonds": 10,
       "rating": 118,
       "is_premium": false,
-      "position": 19,
+      "position": 20,
       "percent": 0.1
     },
     {
@@ -205,7 +215,7 @@
       "diamonds": 0,
       "rating": 116,
       "is_premium": false,
-      "position": 20,
+      "position": 21,
       "percent": 0.1
     },
     {
@@ -215,7 +225,7 @@
       "diamonds": 0,
       "rating": 112,
       "is_premium": false,
-      "position": 21,
+      "position": 22,
       "percent": 0.1
     },
     {
@@ -225,7 +235,7 @@
       "diamonds": 8,
       "rating": 112,
       "is_premium": false,
-      "position": 22,
+      "position": 23,
       "percent": 0.1
     },
     {
@@ -235,7 +245,7 @@
       "diamonds": 8,
       "rating": 108,
       "is_premium": false,
-      "position": 23,
+      "position": 24,
       "percent": 0.1
     },
     {
@@ -245,7 +255,7 @@
       "diamonds": 10,
       "rating": 106,
       "is_premium": false,
-      "position": 24,
+      "position": 25,
       "percent": 0.1
     },
     {
@@ -255,7 +265,7 @@
       "diamonds": 0,
       "rating": 104,
       "is_premium": false,
-      "position": 25,
+      "position": 26,
       "percent": 0.1
     },
     {
@@ -265,7 +275,7 @@
       "diamonds": 10,
       "rating": 100,
       "is_premium": false,
-      "position": 26,
+      "position": 27,
       "percent": 0.1
     },
     {
@@ -274,16 +284,6 @@
       "name": "Bayora",
       "diamonds": 0,
       "rating": 94,
-      "is_premium": false,
-      "position": 27,
-      "percent": 0.1
-    },
-    {
-      "user_id": 7327000838,
-      "username": "yaitseklityna",
-      "name": "jobVini",
-      "diamonds": 6,
-      "rating": 92,
       "is_premium": false,
       "position": 28,
       "percent": 0.1
