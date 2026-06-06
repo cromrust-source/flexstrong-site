@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "06.06.2026 09:23:46",
+  "timestamp": "06.06.2026 09:24:10",
   "stats": {
     "total_users": 309,
     "premium_users": 5,
-    "total_diamonds": 11574
+    "total_diamonds": 11572
   },
   "top": [
     {
@@ -149,23 +149,13 @@
       "percent": 0.1
     },
     {
-      "user_id": 5605527808,
-      "username": "SERGUNEC2",
-      "name": "SERGUNEC R5 5500хSRAM LEVL",
-      "diamonds": 14,
-      "rating": 140,
-      "is_premium": false,
-      "position": 15,
-      "percent": 0.1
-    },
-    {
       "user_id": 6343802173,
       "username": "Lisihla",
       "name": "B1bos",
       "diamonds": 6,
       "rating": 130,
       "is_premium": false,
-      "position": 16,
+      "position": 15,
       "percent": 0.1
     },
     {
@@ -174,6 +164,16 @@
       "name": "Maxel's™",
       "diamonds": 1,
       "rating": 130,
+      "is_premium": false,
+      "position": 16,
+      "percent": 0.1
+    },
+    {
+      "user_id": 5605527808,
+      "username": "SERGUNEC2",
+      "name": "SERGUNEC R5 5500хSRAM LEVL",
+      "diamonds": 12,
+      "rating": 122,
       "is_premium": false,
       "position": 17,
       "percent": 0.1
@@ -1011,6 +1011,13 @@
   ],
   "recent_spends": [
     {
+      "user_id": 5605527808,
+      "name": "SERGUNEC R5 5500хSRAM LEVL",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-06 09:24:02"
+    },
+    {
       "user_id": 6699643387,
       "name": "Alex",
       "amount": 2,
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-06 03:12:45"
-    },
-    {
-      "user_id": 8369033791,
-      "name": "Ento",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-06 02:59:44"
     }
   ],
   "recent_premium": [],
@@ -1221,6 +1221,11 @@
     {
       "user_id": 5683175036,
       "name": "@HET_ZAK0HY #1312🙋",
+      "total_spent": 2
+    },
+    {
+      "user_id": 5605527808,
+      "name": "SERGUNEC R5 5500хSRAM LEVL",
       "total_spent": 2
     },
     {
