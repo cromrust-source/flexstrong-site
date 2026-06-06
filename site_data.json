@@ -1,7 +1,7 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "06.06.2026 21:38:51",
+  "timestamp": "06.06.2026 21:39:23",
   "stats": {
     "total_users": 313,
     "premium_users": 5,
@@ -1015,6 +1015,13 @@
       "name": "Oliveira",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-06 21:39:04"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-06 21:37:41"
     },
     {
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-06 20:35:13"
-    },
-    {
-      "user_id": 8458486577,
-      "name": ".",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-06 20:34:43"
     }
   ],
   "recent_premium": [],
