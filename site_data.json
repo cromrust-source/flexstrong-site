@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "06.06.2026 10:29:05",
+  "timestamp": "06.06.2026 10:29:24",
   "stats": {
     "total_users": 309,
     "premium_users": 5,
-    "total_diamonds": 11548
+    "total_diamonds": 11554
   },
   "top": [
     {
@@ -129,13 +129,23 @@
       "percent": 0.2
     },
     {
+      "user_id": 6343802173,
+      "username": "Lisihla",
+      "name": "B1bos",
+      "diamonds": 12,
+      "rating": 190,
+      "is_premium": false,
+      "position": 13,
+      "percent": 0.2
+    },
+    {
       "user_id": 7902312131,
       "username": "aaafrodit",
       "name": "Белка - НП \"Циферблат\"",
       "diamonds": 0,
       "rating": 158,
       "is_premium": false,
-      "position": 13,
+      "position": 14,
       "percent": 0.2
     },
     {
@@ -145,18 +155,8 @@
       "diamonds": 0,
       "rating": 154,
       "is_premium": false,
-      "position": 14,
-      "percent": 0.2
-    },
-    {
-      "user_id": 6343802173,
-      "username": "Lisihla",
-      "name": "B1bos",
-      "diamonds": 6,
-      "rating": 130,
-      "is_premium": false,
       "position": 15,
-      "percent": 0.1
+      "percent": 0.2
     },
     {
       "user_id": 7577606756,
