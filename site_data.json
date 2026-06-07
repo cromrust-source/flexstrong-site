@@ -1,7 +1,7 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "07.06.2026 20:19:19",
+  "timestamp": "07.06.2026 20:19:51",
   "stats": {
     "total_users": 313,
     "premium_users": 5,
@@ -1011,6 +1011,13 @@
   ],
   "recent_spends": [
     {
+      "user_id": 8698472235,
+      "name": "Имя",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-07 20:19:43"
+    },
+    {
       "user_id": 7392522552,
       "name": "Антон Гандон",
       "amount": 2,
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-07 08:48:55"
-    },
-    {
-      "user_id": 1641622800,
-      "name": "Litput",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-07 08:48:48"
     }
   ],
   "recent_premium": [],
