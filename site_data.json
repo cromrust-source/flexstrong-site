@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 08:29:15",
+  "timestamp": "08.06.2026 08:29:42",
   "stats": {
     "total_users": 313,
     "premium_users": 6,
-    "total_diamonds": 11690
+    "total_diamonds": 11684
   },
   "top": [
     {
@@ -139,23 +139,13 @@
       "percent": 0.3
     },
     {
-      "user_id": 6081755618,
-      "username": "artem_mentality",
-      "name": "Артем",
-      "diamonds": 6,
-      "rating": 224,
-      "is_premium": false,
-      "position": 14,
-      "percent": 0.2
-    },
-    {
       "user_id": 7245660912,
       "username": "нет",
       "name": "Mnaff",
       "diamonds": 20,
       "rating": 208,
       "is_premium": false,
-      "position": 15,
+      "position": 14,
       "percent": 0.2
     },
     {
@@ -165,7 +155,7 @@
       "diamonds": 6,
       "rating": 184,
       "is_premium": false,
-      "position": 16,
+      "position": 15,
       "percent": 0.2
     },
     {
@@ -174,6 +164,16 @@
       "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
       "diamonds": 6,
       "rating": 180,
+      "is_premium": false,
+      "position": 16,
+      "percent": 0.2
+    },
+    {
+      "user_id": 6081755618,
+      "username": "artem_mentality",
+      "name": "Артем",
+      "diamonds": 0,
+      "rating": 170,
       "is_premium": false,
       "position": 17,
       "percent": 0.2
@@ -1011,6 +1011,27 @@
   ],
   "recent_spends": [
     {
+      "user_id": 6081755618,
+      "name": "Артем",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 08:29:24"
+    },
+    {
+      "user_id": 6081755618,
+      "name": "Артем",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 08:29:21"
+    },
+    {
+      "user_id": 6081755618,
+      "name": "Артем",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 08:29:18"
+    },
+    {
       "user_id": 346875614,
       "name": "Барсик",
       "amount": 2,
@@ -1128,27 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео (Premium, лимит исчерпан)",
       "time": "2026-06-08 07:40:55"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео (Premium, лимит исчерпан)",
-      "time": "2026-06-08 07:40:52"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео (Premium, лимит исчерпан)",
-      "time": "2026-06-08 07:40:49"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео (Premium, лимит исчерпан)",
-      "time": "2026-06-08 07:40:46"
     }
   ],
   "recent_premium": [
@@ -1163,7 +1163,7 @@
     {
       "user_id": 6081755618,
       "name": "Артем",
-      "total_spent": 138
+      "total_spent": 144
     },
     {
       "user_id": 8550419112,
