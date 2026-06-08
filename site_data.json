@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 07:44:51",
+  "timestamp": "08.06.2026 07:45:23",
   "stats": {
     "total_users": 313,
     "premium_users": 6,
-    "total_diamonds": 11686
+    "total_diamonds": 11684
   },
   "top": [
     {
@@ -1011,6 +1011,13 @@
   ],
   "recent_spends": [
     {
+      "user_id": 346875614,
+      "name": "Барсик",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 07:45:10"
+    },
+    {
       "user_id": 8550419112,
       "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
       "amount": 2,
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео (Premium, лимит исчерпан)",
       "time": "2026-06-08 07:40:46"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео (Premium, лимит исчерпан)",
-      "time": "2026-06-08 07:40:44"
     }
   ],
   "recent_premium": [
