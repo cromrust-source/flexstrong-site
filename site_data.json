@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 14:58:47",
+  "timestamp": "08.06.2026 14:59:19",
   "stats": {
     "total_users": 320,
     "premium_users": 6,
-    "total_diamonds": 11631
+    "total_diamonds": 11627
   },
   "top": [
     {
@@ -989,19 +989,19 @@
       "percent": 0.0
     },
     {
-      "user_id": 6326981139,
-      "username": "hakimoti",
-      "name": "HakiMoti",
-      "diamonds": 4,
+      "user_id": 8291360789,
+      "username": "нет",
+      "name": "katerina🪬",
+      "diamonds": 0,
       "rating": 46,
       "is_premium": false,
       "position": 99,
       "percent": 0.0
     },
     {
-      "user_id": 8291360789,
-      "username": "нет",
-      "name": "katerina🪬",
+      "user_id": 8654102716,
+      "username": "Dron4k_love",
+      "name": "Крестов младший",
       "diamonds": 0,
       "rating": 46,
       "is_premium": false,
@@ -1010,6 +1010,13 @@
     }
   ],
   "recent_spends": [
+    {
+      "user_id": 6326981139,
+      "name": "HakiMoti",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 14:59:07"
+    },
     {
       "user_id": 6326981139,
       "name": "HakiMoti",
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-08 13:59:51"
-    },
-    {
-      "user_id": 1439741271,
-      "name": "Kappa",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 13:59:37"
     }
   ],
   "recent_premium": [
