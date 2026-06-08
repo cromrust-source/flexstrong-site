@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 04:03:20",
+  "timestamp": "08.06.2026 04:03:52",
   "stats": {
     "total_users": 313,
     "premium_users": 6,
-    "total_diamonds": 11815
+    "total_diamonds": 11801
   },
   "top": [
     {
@@ -69,23 +69,13 @@
       "percent": 0.7
     },
     {
-      "user_id": 6076151756,
-      "username": "нет",
-      "name": "Oliveira",
-      "diamonds": 50,
-      "rating": 522,
-      "is_premium": false,
-      "position": 7,
-      "percent": 0.5
-    },
-    {
       "user_id": 8490240103,
       "username": "",
       "name": "ID:8490240103",
       "diamonds": 44,
       "rating": 440,
       "is_premium": false,
-      "position": 8,
+      "position": 7,
       "percent": 0.4
     },
     {
@@ -94,6 +84,16 @@
       "name": "Zxc #мёртвый#плохой#zxc",
       "diamonds": 20,
       "rating": 406,
+      "is_premium": false,
+      "position": 8,
+      "percent": 0.4
+    },
+    {
+      "user_id": 6076151756,
+      "username": "нет",
+      "name": "Oliveira",
+      "diamonds": 36,
+      "rating": 396,
       "is_premium": false,
       "position": 9,
       "percent": 0.4
@@ -1011,6 +1011,55 @@
   ],
   "recent_spends": [
     {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:03:51"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:03:49"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:03:47"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:03:46"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:03:44"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:03:42"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:03:40"
+    },
+    {
       "user_id": 6343802173,
       "name": "B1bos",
       "amount": 2,
@@ -1100,55 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-07 18:59:26"
-    },
-    {
-      "user_id": 6897629114,
-      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-07 15:44:04"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-07 15:23:34"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-07 15:23:31"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-07 15:23:27"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-07 15:22:15"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-07 15:22:10"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-07 15:21:44"
     }
   ],
   "recent_premium": [
@@ -1171,6 +1171,11 @@
       "total_spent": 36
     },
     {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "total_spent": 36
+    },
+    {
       "user_id": 5022684179,
       "name": "h4ZeX",
       "total_spent": 32
@@ -1184,11 +1189,6 @@
       "user_id": 6077112924,
       "name": ".",
       "total_spent": 26
-    },
-    {
-      "user_id": 6076151756,
-      "name": "Oliveira",
-      "total_spent": 22
     },
     {
       "user_id": 1641622800,
