@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 07:42:11",
+  "timestamp": "08.06.2026 07:42:43",
   "stats": {
     "total_users": 313,
     "premium_users": 6,
-    "total_diamonds": 11704
+    "total_diamonds": 11698
   },
   "top": [
     {
@@ -29,22 +29,22 @@
       "percent": 10.1
     },
     {
-      "user_id": 8550419112,
-      "username": "Barnetun",
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "diamonds": 45,
-      "rating": 1054,
-      "is_premium": true,
-      "position": 3,
-      "percent": 1.1
-    },
-    {
       "user_id": 1364594290,
       "username": "IrenPushkareva",
       "name": "Ирэн ❤️‍🩹",
       "diamonds": 103,
       "rating": 1038,
       "is_premium": false,
+      "position": 3,
+      "percent": 1.0
+    },
+    {
+      "user_id": 8550419112,
+      "username": "Barnetun",
+      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
+      "diamonds": 39,
+      "rating": 1000,
+      "is_premium": true,
       "position": 4,
       "percent": 1.0
     },
@@ -1015,6 +1015,27 @@
       "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
       "amount": 2,
       "action": "Просмотр видео (Premium, лимит исчерпан)",
+      "time": "2026-06-08 07:42:38"
+    },
+    {
+      "user_id": 8550419112,
+      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
+      "amount": 2,
+      "action": "Просмотр видео (Premium, лимит исчерпан)",
+      "time": "2026-06-08 07:42:29"
+    },
+    {
+      "user_id": 8550419112,
+      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
+      "amount": 2,
+      "action": "Просмотр видео (Premium, лимит исчерпан)",
+      "time": "2026-06-08 07:42:17"
+    },
+    {
+      "user_id": 8550419112,
+      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
+      "amount": 2,
+      "action": "Просмотр видео (Premium, лимит исчерпан)",
       "time": "2026-06-08 07:42:08"
     },
     {
@@ -1128,27 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео (Premium, лимит исчерпан)",
       "time": "2026-06-08 07:37:16"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео (Premium, лимит исчерпан)",
-      "time": "2026-06-08 07:36:56"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео (Premium, лимит исчерпан)",
-      "time": "2026-06-08 07:36:40"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео (Premium, лимит исчерпан)",
-      "time": "2026-06-08 07:36:27"
     }
   ],
   "recent_premium": [
@@ -1168,7 +1168,7 @@
     {
       "user_id": 8550419112,
       "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "total_spent": 94
+      "total_spent": 100
     },
     {
       "user_id": 6076151756,
