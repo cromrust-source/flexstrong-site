@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 13:53:51",
+  "timestamp": "08.06.2026 13:54:23",
   "stats": {
     "total_users": 317,
     "premium_users": 6,
-    "total_diamonds": 11635
+    "total_diamonds": 11627
   },
   "top": [
     {
@@ -149,23 +149,13 @@
       "percent": 0.2
     },
     {
-      "user_id": 6897629114,
-      "username": "Braydon_inside",
-      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
-      "diamonds": 8,
-      "rating": 204,
-      "is_premium": false,
-      "position": 15,
-      "percent": 0.2
-    },
-    {
       "user_id": 5022684179,
       "username": "erakaz7",
       "name": "h4ZeX",
       "diamonds": 6,
       "rating": 184,
       "is_premium": false,
-      "position": 16,
+      "position": 15,
       "percent": 0.2
     },
     {
@@ -175,7 +165,7 @@
       "diamonds": 0,
       "rating": 170,
       "is_premium": false,
-      "position": 17,
+      "position": 16,
       "percent": 0.2
     },
     {
@@ -185,7 +175,7 @@
       "diamonds": 11,
       "rating": 168,
       "is_premium": false,
-      "position": 18,
+      "position": 17,
       "percent": 0.2
     },
     {
@@ -195,7 +185,7 @@
       "diamonds": 0,
       "rating": 166,
       "is_premium": false,
-      "position": 19,
+      "position": 18,
       "percent": 0.2
     },
     {
@@ -205,7 +195,7 @@
       "diamonds": 6,
       "rating": 142,
       "is_premium": false,
-      "position": 20,
+      "position": 19,
       "percent": 0.1
     },
     {
@@ -214,6 +204,16 @@
       "name": "Tyler",
       "diamonds": 10,
       "rating": 136,
+      "is_premium": false,
+      "position": 20,
+      "percent": 0.1
+    },
+    {
+      "user_id": 6897629114,
+      "username": "Braydon_inside",
+      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
+      "diamonds": 0,
+      "rating": 132,
       "is_premium": false,
       "position": 21,
       "percent": 0.1
@@ -1015,6 +1015,34 @@
       "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-08 13:54:12"
+    },
+    {
+      "user_id": 6897629114,
+      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 13:54:06"
+    },
+    {
+      "user_id": 6897629114,
+      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 13:54:00"
+    },
+    {
+      "user_id": 6897629114,
+      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 13:53:52"
+    },
+    {
+      "user_id": 6897629114,
+      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-08 13:53:37"
     },
     {
@@ -1121,34 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-08 11:58:25"
-    },
-    {
-      "user_id": 1409227306,
-      "name": "Orest⚡️",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 11:58:23"
-    },
-    {
-      "user_id": 1409227306,
-      "name": "Orest⚡️",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 11:58:22"
-    },
-    {
-      "user_id": 1409227306,
-      "name": "Orest⚡️",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 11:58:19"
-    },
-    {
-      "user_id": 1409227306,
-      "name": "Orest⚡️",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 11:58:14"
     }
   ],
   "recent_premium": [
@@ -1211,6 +1211,11 @@
       "total_spent": 24
     },
     {
+      "user_id": 6897629114,
+      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
+      "total_spent": 22
+    },
+    {
       "user_id": 1641622800,
       "name": "Litput",
       "total_spent": 22
@@ -1253,11 +1258,6 @@
     {
       "user_id": 8328030781,
       "name": "Тайный",
-      "total_spent": 14
-    },
-    {
-      "user_id": 7042847272,
-      "name": "Глеб",
       "total_spent": 14
     }
   ]
