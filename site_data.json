@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 13:53:19",
+  "timestamp": "08.06.2026 13:53:51",
   "stats": {
     "total_users": 317,
     "premium_users": 6,
-    "total_diamonds": 11639
+    "total_diamonds": 11635
   },
   "top": [
     {
@@ -139,21 +139,21 @@
       "percent": 0.2
     },
     {
-      "user_id": 6897629114,
-      "username": "Braydon_inside",
-      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
-      "diamonds": 12,
-      "rating": 222,
-      "is_premium": false,
-      "position": 14,
-      "percent": 0.2
-    },
-    {
       "user_id": 7245660912,
       "username": "нет",
       "name": "Mnaff",
       "diamonds": 20,
       "rating": 208,
+      "is_premium": false,
+      "position": 14,
+      "percent": 0.2
+    },
+    {
+      "user_id": 6897629114,
+      "username": "Braydon_inside",
+      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
+      "diamonds": 8,
+      "rating": 204,
       "is_premium": false,
       "position": 15,
       "percent": 0.2
@@ -1015,6 +1015,13 @@
       "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-08 13:53:37"
+    },
+    {
+      "user_id": 6897629114,
+      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-08 13:53:18"
     },
     {
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-08 11:58:14"
-    },
-    {
-      "user_id": 8539807227,
-      "name": "Negr2)",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 11:37:34"
     }
   ],
   "recent_premium": [
