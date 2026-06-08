@@ -1,7 +1,7 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 07:31:31",
+  "timestamp": "08.06.2026 07:32:03",
   "stats": {
     "total_users": 313,
     "premium_users": 6,
@@ -33,7 +33,7 @@
       "username": "Barnetun",
       "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
       "diamonds": 103,
-      "rating": 1576,
+      "rating": 1558,
       "is_premium": true,
       "position": 3,
       "percent": 1.6
@@ -1011,6 +1011,13 @@
   ],
   "recent_spends": [
     {
+      "user_id": 8550419112,
+      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
+      "amount": 2,
+      "action": "Просмотр видео (Premium, лимит исчерпан)",
+      "time": "2026-06-08 07:32:02"
+    },
+    {
       "user_id": 6077112924,
       "name": ".",
       "amount": 2,
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-08 04:03:55"
-    },
-    {
-      "user_id": 6076151756,
-      "name": "Oliveira",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 04:03:54"
     }
   ],
   "recent_premium": [
@@ -1173,7 +1173,7 @@
     {
       "user_id": 8550419112,
       "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "total_spent": 36
+      "total_spent": 38
     },
     {
       "user_id": 6077112924,
