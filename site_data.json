@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 16:48:15",
+  "timestamp": "08.06.2026 16:48:46",
   "stats": {
     "total_users": 323,
     "premium_users": 6,
-    "total_diamonds": 11623
+    "total_diamonds": 11621
   },
   "top": [
     {
@@ -1011,6 +1011,13 @@
   ],
   "recent_spends": [
     {
+      "user_id": 1741305486,
+      "name": "ㅤ",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 16:48:17"
+    },
+    {
       "user_id": 907540193,
       "name": "🌓bloodsshot🌓",
       "amount": 2,
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-08 15:15:32"
-    },
-    {
-      "user_id": 6343802173,
-      "name": "B1bos",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 15:15:30"
     }
   ],
   "recent_premium": [
