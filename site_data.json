@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 07:21:22",
+  "timestamp": "08.06.2026 07:21:50",
   "stats": {
     "total_users": 313,
     "premium_users": 6,
-    "total_diamonds": 11759
+    "total_diamonds": 11762
   },
   "top": [
     {
@@ -32,8 +32,8 @@
       "user_id": 8550419112,
       "username": "Barnetun",
       "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "diamonds": 100,
-      "rating": 1536,
+      "diamonds": 103,
+      "rating": 1566,
       "is_premium": true,
       "position": 3,
       "percent": 1.6
