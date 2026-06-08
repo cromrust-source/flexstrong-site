@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 14:00:49",
+  "timestamp": "08.06.2026 14:01:21",
   "stats": {
     "total_users": 318,
     "premium_users": 6,
-    "total_diamonds": 11629
+    "total_diamonds": 11627
   },
   "top": [
     {
@@ -1015,6 +1015,13 @@
       "name": "Kappa",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-08 14:00:51"
+    },
+    {
+      "user_id": 1439741271,
+      "name": "Kappa",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-08 13:59:51"
     },
     {
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-08 12:11:09"
-    },
-    {
-      "user_id": 6849903455,
-      "name": "F̶̶H̶̶A̶̶I̶̶L̶̶Y̶",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 12:11:07"
     }
   ],
   "recent_premium": [
