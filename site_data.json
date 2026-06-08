@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 09:38:37",
+  "timestamp": "08.06.2026 09:38:41",
   "stats": {
     "total_users": 314,
     "premium_users": 6,
-    "total_diamonds": 11704
+    "total_diamonds": 11702
   },
   "top": [
     {
@@ -959,23 +959,13 @@
       "percent": 0.1
     },
     {
-      "user_id": 7553221217,
-      "username": "Nxsvdm",
-      "name": "Svin",
-      "diamonds": 4,
-      "rating": 52,
-      "is_premium": false,
-      "position": 96,
-      "percent": 0.1
-    },
-    {
       "user_id": 867375493,
       "username": "dofamin9",
       "name": "Тёма",
       "diamonds": 0,
       "rating": 48,
       "is_premium": false,
-      "position": 97,
+      "position": 96,
       "percent": 0.0
     },
     {
@@ -985,7 +975,7 @@
       "diamonds": 0,
       "rating": 48,
       "is_premium": false,
-      "position": 98,
+      "position": 97,
       "percent": 0.0
     },
     {
@@ -995,7 +985,7 @@
       "diamonds": 0,
       "rating": 48,
       "is_premium": false,
-      "position": 99,
+      "position": 98,
       "percent": 0.0
     },
     {
@@ -1005,11 +995,28 @@
       "diamonds": 0,
       "rating": 46,
       "is_premium": false,
+      "position": 99,
+      "percent": 0.0
+    },
+    {
+      "user_id": 8654102716,
+      "username": "Dron4k_love",
+      "name": "Крестов младший",
+      "diamonds": 0,
+      "rating": 46,
+      "is_premium": false,
       "position": 100,
       "percent": 0.0
     }
   ],
   "recent_spends": [
+    {
+      "user_id": 7553221217,
+      "name": "Svin",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 09:38:38"
+    },
     {
       "user_id": 7553221217,
       "name": "Svin",
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-08 08:31:33"
-    },
-    {
-      "user_id": 7391838465,
-      "name": "fuckeveryone",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 08:31:24"
     }
   ],
   "recent_premium": [
@@ -1251,13 +1251,13 @@
       "total_spent": 14
     },
     {
-      "user_id": 5605527808,
-      "name": "SERGUNEC R5 5500хSRAM LEVL",
+      "user_id": 7553221217,
+      "name": "Svin",
       "total_spent": 14
     },
     {
-      "user_id": 5086980927,
-      "name": "Tyler",
+      "user_id": 5605527808,
+      "name": "SERGUNEC R5 5500хSRAM LEVL",
       "total_spent": 14
     }
   ]
