@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 04:03:52",
+  "timestamp": "08.06.2026 04:04:24",
   "stats": {
     "total_users": 313,
     "premium_users": 6,
-    "total_diamonds": 11801
+    "total_diamonds": 11769
   },
   "top": [
     {
@@ -89,23 +89,13 @@
       "percent": 0.4
     },
     {
-      "user_id": 6076151756,
-      "username": "нет",
-      "name": "Oliveira",
-      "diamonds": 36,
-      "rating": 396,
-      "is_premium": false,
-      "position": 9,
-      "percent": 0.4
-    },
-    {
       "user_id": 8539807227,
       "username": "Hegr218",
       "name": "Negr2)",
       "diamonds": 12,
       "rating": 334,
       "is_premium": false,
-      "position": 10,
+      "position": 9,
       "percent": 0.3
     },
     {
@@ -115,7 +105,7 @@
       "diamonds": 32,
       "rating": 320,
       "is_premium": false,
-      "position": 11,
+      "position": 10,
       "percent": 0.3
     },
     {
@@ -125,7 +115,7 @@
       "diamonds": 0,
       "rating": 314,
       "is_premium": false,
-      "position": 12,
+      "position": 11,
       "percent": 0.3
     },
     {
@@ -135,7 +125,7 @@
       "diamonds": 26,
       "rating": 294,
       "is_premium": false,
-      "position": 13,
+      "position": 12,
       "percent": 0.3
     },
     {
@@ -145,7 +135,7 @@
       "diamonds": 26,
       "rating": 288,
       "is_premium": false,
-      "position": 14,
+      "position": 13,
       "percent": 0.3
     },
     {
@@ -155,7 +145,7 @@
       "diamonds": 20,
       "rating": 208,
       "is_premium": false,
-      "position": 15,
+      "position": 14,
       "percent": 0.2
     },
     {
@@ -165,7 +155,7 @@
       "diamonds": 6,
       "rating": 184,
       "is_premium": false,
-      "position": 16,
+      "position": 15,
       "percent": 0.2
     },
     {
@@ -175,7 +165,7 @@
       "diamonds": 6,
       "rating": 180,
       "is_premium": false,
-      "position": 17,
+      "position": 16,
       "percent": 0.2
     },
     {
@@ -185,7 +175,7 @@
       "diamonds": 0,
       "rating": 166,
       "is_premium": false,
-      "position": 18,
+      "position": 17,
       "percent": 0.2
     },
     {
@@ -195,7 +185,7 @@
       "diamonds": 0,
       "rating": 164,
       "is_premium": false,
-      "position": 19,
+      "position": 18,
       "percent": 0.2
     },
     {
@@ -205,7 +195,7 @@
       "diamonds": 10,
       "rating": 136,
       "is_premium": false,
-      "position": 20,
+      "position": 19,
       "percent": 0.1
     },
     {
@@ -215,7 +205,7 @@
       "diamonds": 1,
       "rating": 130,
       "is_premium": false,
-      "position": 21,
+      "position": 20,
       "percent": 0.1
     },
     {
@@ -225,7 +215,7 @@
       "diamonds": 12,
       "rating": 120,
       "is_premium": false,
-      "position": 22,
+      "position": 21,
       "percent": 0.1
     },
     {
@@ -235,7 +225,7 @@
       "diamonds": 6,
       "rating": 118,
       "is_premium": false,
-      "position": 23,
+      "position": 22,
       "percent": 0.1
     },
     {
@@ -245,7 +235,7 @@
       "diamonds": 10,
       "rating": 118,
       "is_premium": false,
-      "position": 24,
+      "position": 23,
       "percent": 0.1
     },
     {
@@ -255,7 +245,7 @@
       "diamonds": 6,
       "rating": 114,
       "is_premium": false,
-      "position": 25,
+      "position": 24,
       "percent": 0.1
     },
     {
@@ -265,7 +255,7 @@
       "diamonds": 8,
       "rating": 112,
       "is_premium": false,
-      "position": 26,
+      "position": 25,
       "percent": 0.1
     },
     {
@@ -273,6 +263,16 @@
       "username": "kotvteste228",
       "name": "awfulness",
       "diamonds": 8,
+      "rating": 108,
+      "is_premium": false,
+      "position": 26,
+      "percent": 0.1
+    },
+    {
+      "user_id": 6076151756,
+      "username": "нет",
+      "name": "Oliveira",
+      "diamonds": 4,
       "rating": 108,
       "is_premium": false,
       "position": 27,
@@ -1015,6 +1015,125 @@
       "name": "Oliveira",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-08 04:04:24"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:04:22"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:04:21"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:04:18"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:04:16"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:04:15"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:04:14"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:04:13"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:04:11"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:04:10"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:04:09"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:04:08"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:04:06"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:03:56"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:03:55"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:03:54"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 04:03:52"
+    },
+    {
+      "user_id": 6076151756,
+      "name": "Oliveira",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-08 04:03:51"
     },
     {
@@ -1030,125 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-08 04:03:47"
-    },
-    {
-      "user_id": 6076151756,
-      "name": "Oliveira",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 04:03:46"
-    },
-    {
-      "user_id": 6076151756,
-      "name": "Oliveira",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 04:03:44"
-    },
-    {
-      "user_id": 6076151756,
-      "name": "Oliveira",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 04:03:42"
-    },
-    {
-      "user_id": 6076151756,
-      "name": "Oliveira",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 04:03:40"
-    },
-    {
-      "user_id": 6343802173,
-      "name": "B1bos",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 00:05:50"
-    },
-    {
-      "user_id": 6343802173,
-      "name": "B1bos",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 00:05:48"
-    },
-    {
-      "user_id": 6343802173,
-      "name": "B1bos",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 00:05:47"
-    },
-    {
-      "user_id": 6343802173,
-      "name": "B1bos",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 00:05:46"
-    },
-    {
-      "user_id": 6343802173,
-      "name": "B1bos",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 00:05:45"
-    },
-    {
-      "user_id": 6343802173,
-      "name": "B1bos",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 00:05:43"
-    },
-    {
-      "user_id": 1103741546,
-      "name": "Максим",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-07 22:58:41"
-    },
-    {
-      "user_id": 2105962256,
-      "name": "Arturikk",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-07 21:11:17"
-    },
-    {
-      "user_id": 2105962256,
-      "name": "Arturikk",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-07 21:11:14"
-    },
-    {
-      "user_id": 2105962256,
-      "name": "Arturikk",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-07 21:11:12"
-    },
-    {
-      "user_id": 1641331137,
-      "name": "Ilya",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-07 20:21:41"
-    },
-    {
-      "user_id": 8698472235,
-      "name": "Имя",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-07 20:19:43"
-    },
-    {
-      "user_id": 7392522552,
-      "name": "Антон Гандон",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-07 18:59:26"
     }
   ],
   "recent_premium": [
@@ -1166,13 +1166,13 @@
       "total_spent": 138
     },
     {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "total_spent": 36
-    },
-    {
       "user_id": 6076151756,
       "name": "Oliveira",
+      "total_spent": 70
+    },
+    {
+      "user_id": 8550419112,
+      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
       "total_spent": 36
     },
     {
