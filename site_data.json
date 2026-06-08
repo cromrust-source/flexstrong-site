@@ -1,7 +1,7 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 10:19:18",
+  "timestamp": "08.06.2026 10:19:52",
   "stats": {
     "total_users": 314,
     "premium_users": 6,
@@ -79,23 +79,13 @@
       "percent": 0.5
     },
     {
-      "user_id": 8031380265,
-      "username": "OOOOO0OOOOOOOOOOOOOOO",
-      "name": "Zxc #мёртвый#плохой#zxc",
-      "diamonds": 20,
-      "rating": 406,
-      "is_premium": false,
-      "position": 8,
-      "percent": 0.4
-    },
-    {
       "user_id": 1641622800,
       "username": "нет",
       "name": "Litput",
       "diamonds": 32,
       "rating": 354,
       "is_premium": false,
-      "position": 9,
+      "position": 8,
       "percent": 0.4
     },
     {
@@ -105,7 +95,7 @@
       "diamonds": 12,
       "rating": 334,
       "is_premium": false,
-      "position": 10,
+      "position": 9,
       "percent": 0.3
     },
     {
@@ -115,7 +105,7 @@
       "diamonds": 32,
       "rating": 320,
       "is_premium": false,
-      "position": 11,
+      "position": 10,
       "percent": 0.3
     },
     {
@@ -125,7 +115,7 @@
       "diamonds": 0,
       "rating": 314,
       "is_premium": false,
-      "position": 12,
+      "position": 11,
       "percent": 0.3
     },
     {
@@ -135,8 +125,18 @@
       "diamonds": 26,
       "rating": 288,
       "is_premium": false,
-      "position": 13,
+      "position": 12,
       "percent": 0.3
+    },
+    {
+      "user_id": 8031380265,
+      "username": "OOOOO0OOOOOOOOOOOOOOO",
+      "name": "Zxc #мёртвый#плохой#zxc",
+      "diamonds": 20,
+      "rating": 226,
+      "is_premium": false,
+      "position": 13,
+      "percent": 0.2
     },
     {
       "user_id": 7245660912,
@@ -1011,6 +1011,76 @@
   ],
   "recent_spends": [
     {
+      "user_id": 8031380265,
+      "name": "Zxc #мёртвый#плохой#zxc",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 10:19:52"
+    },
+    {
+      "user_id": 8031380265,
+      "name": "Zxc #мёртвый#плохой#zxc",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 10:19:51"
+    },
+    {
+      "user_id": 8031380265,
+      "name": "Zxc #мёртвый#плохой#zxc",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 10:19:51"
+    },
+    {
+      "user_id": 8031380265,
+      "name": "Zxc #мёртвый#плохой#zxc",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 10:19:51"
+    },
+    {
+      "user_id": 8031380265,
+      "name": "Zxc #мёртвый#плохой#zxc",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 10:19:51"
+    },
+    {
+      "user_id": 8031380265,
+      "name": "Zxc #мёртвый#плохой#zxc",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 10:19:51"
+    },
+    {
+      "user_id": 8031380265,
+      "name": "Zxc #мёртвый#плохой#zxc",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 10:19:50"
+    },
+    {
+      "user_id": 8031380265,
+      "name": "Zxc #мёртвый#плохой#zxc",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 10:19:50"
+    },
+    {
+      "user_id": 8031380265,
+      "name": "Zxc #мёртвый#плохой#zxc",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 10:19:50"
+    },
+    {
+      "user_id": 8031380265,
+      "name": "Zxc #мёртвый#плохой#zxc",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 10:19:50"
+    },
+    {
       "user_id": 7042847272,
       "name": "Глеб",
       "amount": 2,
@@ -1079,76 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-08 09:35:19"
-    },
-    {
-      "user_id": 7553221217,
-      "name": "Svin",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 09:34:50"
-    },
-    {
-      "user_id": 7553221217,
-      "name": "Svin",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 09:34:09"
-    },
-    {
-      "user_id": 8698472235,
-      "name": "Имя",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 08:50:45"
-    },
-    {
-      "user_id": 8698472235,
-      "name": "Имя",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 08:50:33"
-    },
-    {
-      "user_id": 8698472235,
-      "name": "Имя",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 08:50:16"
-    },
-    {
-      "user_id": 8698472235,
-      "name": "Имя",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 08:50:06"
-    },
-    {
-      "user_id": 8698472235,
-      "name": "Имя",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 08:49:57"
-    },
-    {
-      "user_id": 8698472235,
-      "name": "Имя",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 08:49:43"
-    },
-    {
-      "user_id": 7391838465,
-      "name": "fuckeveryone",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 08:33:59"
-    },
-    {
-      "user_id": 7391838465,
-      "name": "fuckeveryone",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 08:32:15"
     }
   ],
   "recent_premium": [
@@ -1174,6 +1174,11 @@
       "user_id": 6076151756,
       "name": "Oliveira",
       "total_spent": 72
+    },
+    {
+      "user_id": 8031380265,
+      "name": "Zxc #мёртвый#плохой#zxc",
+      "total_spent": 34
     },
     {
       "user_id": 6077112924,
@@ -1248,11 +1253,6 @@
     {
       "user_id": 8328030781,
       "name": "Тайный",
-      "total_spent": 14
-    },
-    {
-      "user_id": 8031380265,
-      "name": "Zxc #мёртвый#плохой#zxc",
       "total_spent": 14
     },
     {
