@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 08:49:35",
+  "timestamp": "08.06.2026 08:50:02",
   "stats": {
     "total_users": 313,
     "premium_users": 6,
-    "total_diamonds": 11706
+    "total_diamonds": 11702
   },
   "top": [
     {
@@ -199,23 +199,13 @@
       "percent": 0.2
     },
     {
-      "user_id": 8698472235,
-      "username": "нет",
-      "name": "Имя",
-      "diamonds": 12,
-      "rating": 150,
-      "is_premium": false,
-      "position": 20,
-      "percent": 0.2
-    },
-    {
       "user_id": 6343802173,
       "username": "Lisihla",
       "name": "B1bos",
       "diamonds": 6,
       "rating": 142,
       "is_premium": false,
-      "position": 21,
+      "position": 20,
       "percent": 0.1
     },
     {
@@ -225,7 +215,7 @@
       "diamonds": 10,
       "rating": 136,
       "is_premium": false,
-      "position": 22,
+      "position": 21,
       "percent": 0.1
     },
     {
@@ -235,7 +225,7 @@
       "diamonds": 1,
       "rating": 130,
       "is_premium": false,
-      "position": 23,
+      "position": 22,
       "percent": 0.1
     },
     {
@@ -245,7 +235,7 @@
       "diamonds": 12,
       "rating": 120,
       "is_premium": false,
-      "position": 24,
+      "position": 23,
       "percent": 0.1
     },
     {
@@ -255,7 +245,7 @@
       "diamonds": 10,
       "rating": 118,
       "is_premium": false,
-      "position": 25,
+      "position": 24,
       "percent": 0.1
     },
     {
@@ -263,6 +253,16 @@
       "username": "anton66363",
       "name": "Антон Гандон",
       "diamonds": 6,
+      "rating": 114,
+      "is_premium": false,
+      "position": 25,
+      "percent": 0.1
+    },
+    {
+      "user_id": 8698472235,
+      "username": "нет",
+      "name": "Имя",
+      "diamonds": 8,
       "rating": 114,
       "is_premium": false,
       "position": 26,
@@ -1011,6 +1011,20 @@
   ],
   "recent_spends": [
     {
+      "user_id": 8698472235,
+      "name": "Имя",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 08:49:57"
+    },
+    {
+      "user_id": 8698472235,
+      "name": "Имя",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 08:49:43"
+    },
+    {
       "user_id": 7391838465,
       "name": "fuckeveryone",
       "amount": 2,
@@ -1135,20 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео (Premium, лимит исчерпан)",
       "time": "2026-06-08 07:43:04"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео (Premium, лимит исчерпан)",
-      "time": "2026-06-08 07:43:01"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео (Premium, лимит исчерпан)",
-      "time": "2026-06-08 07:42:48"
     }
   ],
   "recent_premium": [
