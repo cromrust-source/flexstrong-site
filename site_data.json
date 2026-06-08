@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 08:31:51",
+  "timestamp": "08.06.2026 08:32:11",
   "stats": {
     "total_users": 313,
     "premium_users": 6,
-    "total_diamonds": 11684
+    "total_diamonds": 11686
   },
   "top": [
     {
@@ -179,13 +179,23 @@
       "percent": 0.2
     },
     {
+      "user_id": 8458486577,
+      "username": "kidrol_lol",
+      "name": ".",
+      "diamonds": 11,
+      "rating": 168,
+      "is_premium": false,
+      "position": 18,
+      "percent": 0.2
+    },
+    {
       "user_id": 7902312131,
       "username": "aaafrodit",
       "name": "Белка - НП \"Циферблат\"",
       "diamonds": 0,
       "rating": 166,
       "is_premium": false,
-      "position": 18,
+      "position": 19,
       "percent": 0.2
     },
     {
@@ -195,7 +205,7 @@
       "diamonds": 10,
       "rating": 136,
       "is_premium": false,
-      "position": 19,
+      "position": 20,
       "percent": 0.1
     },
     {
@@ -205,7 +215,7 @@
       "diamonds": 1,
       "rating": 130,
       "is_premium": false,
-      "position": 20,
+      "position": 21,
       "percent": 0.1
     },
     {
@@ -215,7 +225,7 @@
       "diamonds": 12,
       "rating": 120,
       "is_premium": false,
-      "position": 21,
+      "position": 22,
       "percent": 0.1
     },
     {
@@ -225,7 +235,7 @@
       "diamonds": 10,
       "rating": 118,
       "is_premium": false,
-      "position": 22,
+      "position": 23,
       "percent": 0.1
     },
     {
@@ -235,7 +245,7 @@
       "diamonds": 6,
       "rating": 114,
       "is_premium": false,
-      "position": 23,
+      "position": 24,
       "percent": 0.1
     },
     {
@@ -243,16 +253,6 @@
       "username": "kotvteste228",
       "name": "awfulness",
       "diamonds": 8,
-      "rating": 108,
-      "is_premium": false,
-      "position": 24,
-      "percent": 0.1
-    },
-    {
-      "user_id": 8458486577,
-      "username": "kidrol_lol",
-      "name": ".",
-      "diamonds": 5,
       "rating": 108,
       "is_premium": false,
       "position": 25,
@@ -289,23 +289,13 @@
       "percent": 0.1
     },
     {
-      "user_id": 7391838465,
-      "username": "vrple",
-      "name": "fuckeveryone",
-      "diamonds": 8,
-      "rating": 100,
-      "is_premium": false,
-      "position": 29,
-      "percent": 0.1
-    },
-    {
       "user_id": 8200201971,
       "username": "нет",
       "name": "Ers",
       "diamonds": 0,
       "rating": 100,
       "is_premium": false,
-      "position": 30,
+      "position": 29,
       "percent": 0.1
     },
     {
@@ -315,7 +305,7 @@
       "diamonds": 6,
       "rating": 96,
       "is_premium": false,
-      "position": 31,
+      "position": 30,
       "percent": 0.1
     },
     {
@@ -325,7 +315,7 @@
       "diamonds": 0,
       "rating": 94,
       "is_premium": false,
-      "position": 32,
+      "position": 31,
       "percent": 0.1
     },
     {
@@ -335,7 +325,7 @@
       "diamonds": 6,
       "rating": 90,
       "is_premium": false,
-      "position": 33,
+      "position": 32,
       "percent": 0.1
     },
     {
@@ -345,7 +335,7 @@
       "diamonds": 6,
       "rating": 90,
       "is_premium": false,
-      "position": 34,
+      "position": 33,
       "percent": 0.1
     },
     {
@@ -355,7 +345,7 @@
       "diamonds": 7,
       "rating": 88,
       "is_premium": false,
-      "position": 35,
+      "position": 34,
       "percent": 0.1
     },
     {
@@ -365,7 +355,7 @@
       "diamonds": 0,
       "rating": 88,
       "is_premium": false,
-      "position": 36,
+      "position": 35,
       "percent": 0.1
     },
     {
@@ -375,7 +365,7 @@
       "diamonds": 8,
       "rating": 82,
       "is_premium": false,
-      "position": 37,
+      "position": 36,
       "percent": 0.1
     },
     {
@@ -383,6 +373,16 @@
       "username": "Lisihla",
       "name": "B1bos",
       "diamonds": 0,
+      "rating": 82,
+      "is_premium": false,
+      "position": 37,
+      "percent": 0.1
+    },
+    {
+      "user_id": 7391838465,
+      "username": "vrple",
+      "name": "fuckeveryone",
+      "diamonds": 4,
       "rating": 82,
       "is_premium": false,
       "position": 38,
@@ -1015,6 +1015,13 @@
       "name": "fuckeveryone",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-08 08:31:53"
+    },
+    {
+      "user_id": 7391838465,
+      "name": "fuckeveryone",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-08 08:31:50"
     },
     {
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео (Premium, лимит исчерпан)",
       "time": "2026-06-08 07:42:17"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео (Premium, лимит исчерпан)",
-      "time": "2026-06-08 07:42:08"
     }
   ],
   "recent_premium": [
