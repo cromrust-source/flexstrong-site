@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 10:41:49",
+  "timestamp": "08.06.2026 10:42:22",
   "stats": {
     "total_users": 314,
     "premium_users": 6,
-    "total_diamonds": 11653
+    "total_diamonds": 11651
   },
   "top": [
     {
@@ -989,19 +989,19 @@
       "percent": 0.0
     },
     {
-      "user_id": 5124467316,
-      "username": "dekox3",
-      "name": "$wa$ton_$winota",
-      "diamonds": 2,
+      "user_id": 8291360789,
+      "username": "нет",
+      "name": "katerina🪬",
+      "diamonds": 0,
       "rating": 46,
       "is_premium": false,
       "position": 99,
       "percent": 0.0
     },
     {
-      "user_id": 8291360789,
-      "username": "нет",
-      "name": "katerina🪬",
+      "user_id": 8654102716,
+      "username": "Dron4k_love",
+      "name": "Крестов младший",
       "diamonds": 0,
       "rating": 46,
       "is_premium": false,
@@ -1010,6 +1010,13 @@
     }
   ],
   "recent_spends": [
+    {
+      "user_id": 5124467316,
+      "name": "$wa$ton_$winota",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 10:41:50"
+    },
     {
       "user_id": 5124467316,
       "name": "$wa$ton_$winota",
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео (Premium, лимит исчерпан)",
       "time": "2026-06-08 10:22:29"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео (Premium, лимит исчерпан)",
-      "time": "2026-06-08 10:22:17"
     }
   ],
   "recent_premium": [
@@ -1198,7 +1198,7 @@
     {
       "user_id": 5124467316,
       "name": "$wa$ton_$winota",
-      "total_spent": 26
+      "total_spent": 28
     },
     {
       "user_id": 5660992957,
