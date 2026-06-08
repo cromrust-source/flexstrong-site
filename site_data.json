@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 13:52:47",
+  "timestamp": "08.06.2026 13:53:16",
   "stats": {
     "total_users": 317,
     "premium_users": 6,
-    "total_diamonds": 11633
+    "total_diamonds": 11639
   },
   "top": [
     {
@@ -119,13 +119,23 @@
       "percent": 0.3
     },
     {
+      "user_id": 6897629114,
+      "username": "Braydon_inside",
+      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
+      "diamonds": 12,
+      "rating": 240,
+      "is_premium": false,
+      "position": 12,
+      "percent": 0.2
+    },
+    {
       "user_id": 8031380265,
       "username": "OOOOO0OOOOOOOOOOOOOOO",
       "name": "Zxc #мёртвый#плохой#zxc",
       "diamonds": 0,
       "rating": 226,
       "is_premium": false,
-      "position": 12,
+      "position": 13,
       "percent": 0.2
     },
     {
@@ -135,7 +145,7 @@
       "diamonds": 0,
       "rating": 226,
       "is_premium": false,
-      "position": 13,
+      "position": 14,
       "percent": 0.2
     },
     {
@@ -145,7 +155,7 @@
       "diamonds": 20,
       "rating": 208,
       "is_premium": false,
-      "position": 14,
+      "position": 15,
       "percent": 0.2
     },
     {
@@ -154,16 +164,6 @@
       "name": "h4ZeX",
       "diamonds": 6,
       "rating": 184,
-      "is_premium": false,
-      "position": 15,
-      "percent": 0.2
-    },
-    {
-      "user_id": 6897629114,
-      "username": "Braydon_inside",
-      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
-      "diamonds": 6,
-      "rating": 180,
       "is_premium": false,
       "position": 16,
       "percent": 0.2
