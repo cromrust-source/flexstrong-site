@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 08:32:23",
+  "timestamp": "08.06.2026 08:32:28",
   "stats": {
     "total_users": 313,
     "premium_users": 6,
-    "total_diamonds": 11682
+    "total_diamonds": 11688
   },
   "top": [
     {
@@ -89,13 +89,23 @@
       "percent": 0.4
     },
     {
+      "user_id": 1641622800,
+      "username": "нет",
+      "name": "Litput",
+      "diamonds": 32,
+      "rating": 354,
+      "is_premium": false,
+      "position": 9,
+      "percent": 0.4
+    },
+    {
       "user_id": 8539807227,
       "username": "Hegr218",
       "name": "Negr2)",
       "diamonds": 12,
       "rating": 334,
       "is_premium": false,
-      "position": 9,
+      "position": 10,
       "percent": 0.3
     },
     {
@@ -105,7 +115,7 @@
       "diamonds": 32,
       "rating": 320,
       "is_premium": false,
-      "position": 10,
+      "position": 11,
       "percent": 0.3
     },
     {
@@ -114,16 +124,6 @@
       "name": "𝖕𝖊𝖙𝖗𝖚𝖈𝖔",
       "diamonds": 0,
       "rating": 314,
-      "is_premium": false,
-      "position": 11,
-      "percent": 0.3
-    },
-    {
-      "user_id": 1641622800,
-      "username": "нет",
-      "name": "Litput",
-      "diamonds": 26,
-      "rating": 294,
       "is_premium": false,
       "position": 12,
       "percent": 0.3
