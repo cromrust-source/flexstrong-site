@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 11:36:53",
+  "timestamp": "08.06.2026 11:37:25",
   "stats": {
     "total_users": 314,
     "premium_users": 6,
-    "total_diamonds": 11641
+    "total_diamonds": 11639
   },
   "top": [
     {
@@ -109,21 +109,21 @@
       "percent": 0.3
     },
     {
-      "user_id": 8539807227,
-      "username": "Hegr218",
-      "name": "Negr2)",
-      "diamonds": 8,
-      "rating": 298,
-      "is_premium": false,
-      "position": 11,
-      "percent": 0.3
-    },
-    {
       "user_id": 6484935444,
       "username": "нет",
       "name": "Mckdiejsnnd",
       "diamonds": 26,
       "rating": 288,
+      "is_premium": false,
+      "position": 11,
+      "percent": 0.3
+    },
+    {
+      "user_id": 8539807227,
+      "username": "Hegr218",
+      "name": "Negr2)",
+      "diamonds": 6,
+      "rating": 262,
       "is_premium": false,
       "position": 12,
       "percent": 0.3
@@ -1015,6 +1015,20 @@
       "name": "Negr2)",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-08 11:37:24"
+    },
+    {
+      "user_id": 8539807227,
+      "name": "Negr2)",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 11:37:22"
+    },
+    {
+      "user_id": 8539807227,
+      "name": "Negr2)",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-08 11:18:25"
     },
     {
@@ -1135,20 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео (Premium, лимит исчерпан)",
       "time": "2026-06-08 10:34:17"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео (Premium, лимит исчерпан)",
-      "time": "2026-06-08 10:33:33"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео (Premium, лимит исчерпан)",
-      "time": "2026-06-08 10:32:35"
     }
   ],
   "recent_premium": [
