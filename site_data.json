@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 09:22:06",
+  "timestamp": "08.06.2026 09:22:38",
   "stats": {
     "total_users": 313,
     "premium_users": 6,
-    "total_diamonds": 11694
+    "total_diamonds": 11700
   },
   "top": [
     {
@@ -62,11 +62,11 @@
       "user_id": 8693921243,
       "username": "Shima_lil",
       "name": "SHIMA_#PRO",
-      "diamonds": 6,
-      "rating": 708,
+      "diamonds": 12,
+      "rating": 768,
       "is_premium": true,
       "position": 6,
-      "percent": 0.7
+      "percent": 0.8
     },
     {
       "user_id": 8490240103,
