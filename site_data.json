@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 08:33:27",
+  "timestamp": "08.06.2026 08:33:59",
   "stats": {
     "total_users": 313,
     "premium_users": 6,
-    "total_diamonds": 11688
+    "total_diamonds": 11690
   },
   "top": [
     {
@@ -992,8 +992,8 @@
       "user_id": 7391838465,
       "username": "vrple",
       "name": "fuckeveryone",
-      "diamonds": 0,
-      "rating": 46,
+      "diamonds": 2,
+      "rating": 48,
       "is_premium": false,
       "position": 99,
       "percent": 0.0
@@ -1010,6 +1010,13 @@
     }
   ],
   "recent_spends": [
+    {
+      "user_id": 7391838465,
+      "name": "fuckeveryone",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 08:33:59"
+    },
     {
       "user_id": 7391838465,
       "name": "fuckeveryone",
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео (Premium, лимит исчерпан)",
       "time": "2026-06-08 07:42:48"
-    },
-    {
-      "user_id": 8550419112,
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "amount": 2,
-      "action": "Просмотр видео (Premium, лимит исчерпан)",
-      "time": "2026-06-08 07:42:38"
     }
   ],
   "recent_premium": [
@@ -1211,6 +1211,11 @@
       "total_spent": 18
     },
     {
+      "user_id": 7391838465,
+      "name": "fuckeveryone",
+      "total_spent": 16
+    },
+    {
       "user_id": 7327000838,
       "name": "jobVini",
       "total_spent": 16
@@ -1238,11 +1243,6 @@
     {
       "user_id": 8031380265,
       "name": "Zxc #мёртвый#плохой#zxc",
-      "total_spent": 14
-    },
-    {
-      "user_id": 7391838465,
-      "name": "fuckeveryone",
       "total_spent": 14
     },
     {
