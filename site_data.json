@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 12:11:06",
+  "timestamp": "08.06.2026 12:11:36",
   "stats": {
     "total_users": 316,
     "premium_users": 6,
-    "total_diamonds": 11637
+    "total_diamonds": 11633
   },
   "top": [
     {
@@ -989,19 +989,19 @@
       "percent": 0.0
     },
     {
-      "user_id": 6849903455,
-      "username": "FHAily",
-      "name": "F̶̶H̶̶A̶̶I̶̶L̶̶Y̶",
-      "diamonds": 4,
+      "user_id": 8291360789,
+      "username": "нет",
+      "name": "katerina🪬",
+      "diamonds": 0,
       "rating": 46,
       "is_premium": false,
       "position": 99,
       "percent": 0.0
     },
     {
-      "user_id": 8291360789,
-      "username": "нет",
-      "name": "katerina🪬",
+      "user_id": 8654102716,
+      "username": "Dron4k_love",
+      "name": "Крестов младший",
       "diamonds": 0,
       "rating": 46,
       "is_premium": false,
@@ -1010,6 +1010,20 @@
     }
   ],
   "recent_spends": [
+    {
+      "user_id": 6849903455,
+      "name": "F̶̶H̶̶A̶̶I̶̶L̶̶Y̶",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 12:11:09"
+    },
+    {
+      "user_id": 6849903455,
+      "name": "F̶̶H̶̶A̶̶I̶̶L̶̶Y̶",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 12:11:07"
+    },
     {
       "user_id": 6849903455,
       "name": "F̶̶H̶̶A̶̶I̶̶L̶̶Y̶",
@@ -1135,20 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-08 10:59:16"
-    },
-    {
-      "user_id": 1641331137,
-      "name": "Ilya",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 10:59:11"
-    },
-    {
-      "user_id": 1641331137,
-      "name": "Ilya",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 10:59:08"
     }
   ],
   "recent_premium": [
