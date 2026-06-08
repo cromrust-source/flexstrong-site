@@ -1,7 +1,7 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 20:59:29",
+  "timestamp": "08.06.2026 21:00:00",
   "stats": {
     "total_users": 333,
     "premium_users": 6,
@@ -59,23 +59,13 @@
       "percent": 0.8
     },
     {
-      "user_id": 8550419112,
-      "username": "Barnetun",
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "diamonds": 1,
-      "rating": 664,
-      "is_premium": true,
-      "position": 6,
-      "percent": 0.7
-    },
-    {
       "user_id": 8490240103,
       "username": "",
       "name": "ID:8490240103",
       "diamonds": 46,
       "rating": 460,
       "is_premium": false,
-      "position": 7,
+      "position": 6,
       "percent": 0.5
     },
     {
@@ -85,7 +75,7 @@
       "diamonds": 32,
       "rating": 354,
       "is_premium": false,
-      "position": 8,
+      "position": 7,
       "percent": 0.4
     },
     {
@@ -95,7 +85,7 @@
       "diamonds": 32,
       "rating": 320,
       "is_premium": false,
-      "position": 9,
+      "position": 8,
       "percent": 0.3
     },
     {
@@ -105,7 +95,7 @@
       "diamonds": 0,
       "rating": 314,
       "is_premium": false,
-      "position": 10,
+      "position": 9,
       "percent": 0.3
     },
     {
@@ -115,7 +105,7 @@
       "diamonds": 26,
       "rating": 288,
       "is_premium": false,
-      "position": 11,
+      "position": 10,
       "percent": 0.3
     },
     {
@@ -125,7 +115,7 @@
       "diamonds": 0,
       "rating": 226,
       "is_premium": false,
-      "position": 12,
+      "position": 11,
       "percent": 0.2
     },
     {
@@ -135,7 +125,7 @@
       "diamonds": 0,
       "rating": 226,
       "is_premium": false,
-      "position": 13,
+      "position": 12,
       "percent": 0.2
     },
     {
@@ -145,7 +135,7 @@
       "diamonds": 20,
       "rating": 208,
       "is_premium": false,
-      "position": 14,
+      "position": 13,
       "percent": 0.2
     },
     {
@@ -155,7 +145,7 @@
       "diamonds": 6,
       "rating": 184,
       "is_premium": false,
-      "position": 15,
+      "position": 14,
       "percent": 0.2
     },
     {
@@ -165,7 +155,7 @@
       "diamonds": 0,
       "rating": 170,
       "is_premium": false,
-      "position": 16,
+      "position": 15,
       "percent": 0.2
     },
     {
@@ -175,7 +165,7 @@
       "diamonds": 0,
       "rating": 168,
       "is_premium": false,
-      "position": 17,
+      "position": 16,
       "percent": 0.2
     },
     {
@@ -184,6 +174,16 @@
       "name": ".",
       "diamonds": 11,
       "rating": 168,
+      "is_premium": false,
+      "position": 17,
+      "percent": 0.2
+    },
+    {
+      "user_id": 8550419112,
+      "username": "Barnetun",
+      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
+      "diamonds": 1,
+      "rating": 164,
       "is_premium": false,
       "position": 18,
       "percent": 0.2
