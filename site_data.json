@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 14:55:01",
+  "timestamp": "08.06.2026 14:55:33",
   "stats": {
     "total_users": 319,
     "premium_users": 6,
-    "total_diamonds": 11637
+    "total_diamonds": 11633
   },
   "top": [
     {
@@ -219,23 +219,13 @@
       "percent": 0.1
     },
     {
-      "user_id": 5124467316,
-      "username": "dekox3",
-      "name": "$wa$ton_$winota",
-      "diamonds": 10,
-      "rating": 130,
-      "is_premium": false,
-      "position": 22,
-      "percent": 0.1
-    },
-    {
       "user_id": 7577606756,
       "username": "Maxels333",
       "name": "Maxel's™",
       "diamonds": 1,
       "rating": 130,
       "is_premium": false,
-      "position": 23,
+      "position": 22,
       "percent": 0.1
     },
     {
@@ -245,7 +235,7 @@
       "diamonds": 12,
       "rating": 120,
       "is_premium": false,
-      "position": 24,
+      "position": 23,
       "percent": 0.1
     },
     {
@@ -255,7 +245,7 @@
       "diamonds": 10,
       "rating": 118,
       "is_premium": false,
-      "position": 25,
+      "position": 24,
       "percent": 0.1
     },
     {
@@ -265,7 +255,7 @@
       "diamonds": 6,
       "rating": 114,
       "is_premium": false,
-      "position": 26,
+      "position": 25,
       "percent": 0.1
     },
     {
@@ -275,7 +265,7 @@
       "diamonds": 0,
       "rating": 112,
       "is_premium": false,
-      "position": 27,
+      "position": 26,
       "percent": 0.1
     },
     {
@@ -285,7 +275,7 @@
       "diamonds": 8,
       "rating": 108,
       "is_premium": false,
-      "position": 28,
+      "position": 27,
       "percent": 0.1
     },
     {
@@ -295,7 +285,7 @@
       "diamonds": 10,
       "rating": 106,
       "is_premium": false,
-      "position": 29,
+      "position": 28,
       "percent": 0.1
     },
     {
@@ -305,7 +295,7 @@
       "diamonds": 10,
       "rating": 100,
       "is_premium": false,
-      "position": 30,
+      "position": 29,
       "percent": 0.1
     },
     {
@@ -314,6 +304,16 @@
       "name": "Ers",
       "diamonds": 0,
       "rating": 100,
+      "is_premium": false,
+      "position": 30,
+      "percent": 0.1
+    },
+    {
+      "user_id": 5124467316,
+      "username": "dekox3",
+      "name": "$wa$ton_$winota",
+      "diamonds": 6,
+      "rating": 94,
       "is_premium": false,
       "position": 31,
       "percent": 0.1
@@ -1015,6 +1015,20 @@
       "name": "$wa$ton_$winota",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-08 14:55:14"
+    },
+    {
+      "user_id": 5124467316,
+      "name": "$wa$ton_$winota",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 14:55:06"
+    },
+    {
+      "user_id": 5124467316,
+      "name": "$wa$ton_$winota",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-08 14:54:43"
     },
     {
@@ -1135,20 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-08 13:53:37"
-    },
-    {
-      "user_id": 6897629114,
-      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 13:53:18"
-    },
-    {
-      "user_id": 6699643387,
-      "name": "Alex",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 12:55:27"
     }
   ],
   "recent_premium": [
@@ -1181,6 +1181,11 @@
       "total_spent": 34
     },
     {
+      "user_id": 5124467316,
+      "name": "$wa$ton_$winota",
+      "total_spent": 34
+    },
+    {
       "user_id": 6077112924,
       "name": ".",
       "total_spent": 32
@@ -1193,11 +1198,6 @@
     {
       "user_id": 8200201971,
       "name": "Ers",
-      "total_spent": 30
-    },
-    {
-      "user_id": 5124467316,
-      "name": "$wa$ton_$winota",
       "total_spent": 30
     },
     {
