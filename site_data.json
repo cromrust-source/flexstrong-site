@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 09:35:38",
+  "timestamp": "08.06.2026 09:36:00",
   "stats": {
     "total_users": 314,
     "premium_users": 6,
-    "total_diamonds": 11704
+    "total_diamonds": 11702
   },
   "top": [
     {
@@ -989,19 +989,19 @@
       "percent": 0.0
     },
     {
-      "user_id": 7553221217,
-      "username": "Nxsvdm",
-      "name": "Svin",
-      "diamonds": 4,
+      "user_id": 8291360789,
+      "username": "нет",
+      "name": "katerina🪬",
+      "diamonds": 0,
       "rating": 46,
       "is_premium": false,
       "position": 99,
       "percent": 0.0
     },
     {
-      "user_id": 8291360789,
-      "username": "нет",
-      "name": "katerina🪬",
+      "user_id": 8654102716,
+      "username": "Dron4k_love",
+      "name": "Крестов младший",
       "diamonds": 0,
       "rating": 46,
       "is_premium": false,
@@ -1010,6 +1010,13 @@
     }
   ],
   "recent_spends": [
+    {
+      "user_id": 7553221217,
+      "name": "Svin",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-08 09:35:40"
+    },
     {
       "user_id": 7553221217,
       "name": "Svin",
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-08 08:29:21"
-    },
-    {
-      "user_id": 6081755618,
-      "name": "Артем",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 08:29:18"
     }
   ],
   "recent_premium": [
