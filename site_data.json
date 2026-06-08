@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "08.06.2026 16:29:30",
+  "timestamp": "08.06.2026 16:30:02",
   "stats": {
-    "total_users": 322,
+    "total_users": 323,
     "premium_users": 6,
-    "total_diamonds": 11621
+    "total_diamonds": 11629
   },
   "top": [
     {
@@ -779,13 +779,23 @@
       "percent": 0.1
     },
     {
+      "user_id": 8978488027,
+      "username": "нет",
+      "name": "Chy4o0",
+      "diamonds": 8,
+      "rating": 80,
+      "is_premium": false,
+      "position": 78,
+      "percent": 0.1
+    },
+    {
       "user_id": 8985227816,
       "username": "нет",
       "name": "Miq -_-",
       "diamonds": 0,
       "rating": 80,
       "is_premium": false,
-      "position": 78,
+      "position": 79,
       "percent": 0.1
     },
     {
@@ -795,7 +805,7 @@
       "diamonds": 0,
       "rating": 78,
       "is_premium": false,
-      "position": 79,
+      "position": 80,
       "percent": 0.1
     },
     {
@@ -805,7 +815,7 @@
       "diamonds": 0,
       "rating": 74,
       "is_premium": false,
-      "position": 80,
+      "position": 81,
       "percent": 0.1
     },
     {
@@ -815,7 +825,7 @@
       "diamonds": 0,
       "rating": 72,
       "is_premium": false,
-      "position": 81,
+      "position": 82,
       "percent": 0.1
     },
     {
@@ -825,7 +835,7 @@
       "diamonds": 0,
       "rating": 66,
       "is_premium": false,
-      "position": 82,
+      "position": 83,
       "percent": 0.1
     },
     {
@@ -835,7 +845,7 @@
       "diamonds": 0,
       "rating": 64,
       "is_premium": false,
-      "position": 83,
+      "position": 84,
       "percent": 0.1
     },
     {
@@ -845,7 +855,7 @@
       "diamonds": 0,
       "rating": 64,
       "is_premium": false,
-      "position": 84,
+      "position": 85,
       "percent": 0.1
     },
     {
@@ -855,7 +865,7 @@
       "diamonds": 0,
       "rating": 64,
       "is_premium": false,
-      "position": 85,
+      "position": 86,
       "percent": 0.1
     },
     {
@@ -865,7 +875,7 @@
       "diamonds": 0,
       "rating": 62,
       "is_premium": false,
-      "position": 86,
+      "position": 87,
       "percent": 0.1
     },
     {
@@ -875,7 +885,7 @@
       "diamonds": 0,
       "rating": 62,
       "is_premium": false,
-      "position": 87,
+      "position": 88,
       "percent": 0.1
     },
     {
@@ -885,7 +895,7 @@
       "diamonds": 2,
       "rating": 60,
       "is_premium": false,
-      "position": 88,
+      "position": 89,
       "percent": 0.1
     },
     {
@@ -895,7 +905,7 @@
       "diamonds": 1,
       "rating": 56,
       "is_premium": false,
-      "position": 89,
+      "position": 90,
       "percent": 0.1
     },
     {
@@ -905,7 +915,7 @@
       "diamonds": 0,
       "rating": 56,
       "is_premium": false,
-      "position": 90,
+      "position": 91,
       "percent": 0.1
     },
     {
@@ -915,7 +925,7 @@
       "diamonds": 0,
       "rating": 56,
       "is_premium": false,
-      "position": 91,
+      "position": 92,
       "percent": 0.1
     },
     {
@@ -925,7 +935,7 @@
       "diamonds": 0,
       "rating": 54,
       "is_premium": false,
-      "position": 92,
+      "position": 93,
       "percent": 0.1
     },
     {
@@ -935,7 +945,7 @@
       "diamonds": 0,
       "rating": 52,
       "is_premium": false,
-      "position": 93,
+      "position": 94,
       "percent": 0.1
     },
     {
@@ -945,7 +955,7 @@
       "diamonds": 0,
       "rating": 48,
       "is_premium": false,
-      "position": 94,
+      "position": 95,
       "percent": 0.0
     },
     {
@@ -955,7 +965,7 @@
       "diamonds": 0,
       "rating": 48,
       "is_premium": false,
-      "position": 95,
+      "position": 96,
       "percent": 0.0
     },
     {
@@ -965,7 +975,7 @@
       "diamonds": 0,
       "rating": 48,
       "is_premium": false,
-      "position": 96,
+      "position": 97,
       "percent": 0.0
     },
     {
@@ -975,7 +985,7 @@
       "diamonds": 0,
       "rating": 48,
       "is_premium": false,
-      "position": 97,
+      "position": 98,
       "percent": 0.0
     },
     {
@@ -985,7 +995,7 @@
       "diamonds": 0,
       "rating": 48,
       "is_premium": false,
-      "position": 98,
+      "position": 99,
       "percent": 0.0
     },
     {
@@ -994,16 +1004,6 @@
       "name": "katerina🪬",
       "diamonds": 0,
       "rating": 48,
-      "is_premium": false,
-      "position": 99,
-      "percent": 0.0
-    },
-    {
-      "user_id": 8654102716,
-      "username": "Dron4k_love",
-      "name": "Крестов младший",
-      "diamonds": 0,
-      "rating": 46,
       "is_premium": false,
       "position": 100,
       "percent": 0.0
