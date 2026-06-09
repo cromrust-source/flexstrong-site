@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 10:45:06",
+  "timestamp": "09.06.2026 10:45:39",
   "stats": {
     "total_users": 335,
     "premium_users": 6,
-    "total_diamonds": 11668
+    "total_diamonds": 11670
   },
   "top": [
     {
@@ -189,21 +189,21 @@
       "percent": 0.2
     },
     {
+      "user_id": 6897629114,
+      "username": "Braydon_inside",
+      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
+      "diamonds": 2,
+      "rating": 152,
+      "is_premium": false,
+      "position": 19,
+      "percent": 0.2
+    },
+    {
       "user_id": 5086980927,
       "username": "celestialskyline_flood",
       "name": "Tyler",
       "diamonds": 10,
       "rating": 136,
-      "is_premium": false,
-      "position": 19,
-      "percent": 0.1
-    },
-    {
-      "user_id": 6897629114,
-      "username": "Braydon_inside",
-      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
-      "diamonds": 0,
-      "rating": 132,
       "is_premium": false,
       "position": 20,
       "percent": 0.1
