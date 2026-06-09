@@ -1,7 +1,7 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 07:01:03",
+  "timestamp": "09.06.2026 07:01:36",
   "stats": {
     "total_users": 334,
     "premium_users": 6,
@@ -1011,6 +1011,13 @@
   ],
   "recent_spends": [
     {
+      "user_id": 5937881696,
+      "name": "Diurio",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 07:01:22"
+    },
+    {
       "user_id": 8793577460,
       "name": "Ellie",
       "amount": 2,
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-08 19:06:48"
-    },
-    {
-      "user_id": 7067830651,
-      "name": "Одинокий",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 19:06:44"
     }
   ],
   "recent_premium": [
