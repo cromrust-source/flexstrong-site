@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 22:34:26",
+  "timestamp": "09.06.2026 22:34:58",
   "stats": {
-    "total_users": 350,
+    "total_users": 351,
     "premium_users": 6,
-    "total_diamonds": 11654
+    "total_diamonds": 11662
   },
   "top": [
     {
@@ -509,13 +509,23 @@
       "percent": 0.1
     },
     {
+      "user_id": 1545916852,
+      "username": "sklezarr_w",
+      "name": "Га́шик",
+      "diamonds": 8,
+      "rating": 80,
+      "is_premium": false,
+      "position": 51,
+      "percent": 0.1
+    },
+    {
       "user_id": 1732970928,
       "username": "travomah",
       "name": "Travomen",
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 51,
+      "position": 52,
       "percent": 0.1
     },
     {
@@ -525,7 +535,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 52,
+      "position": 53,
       "percent": 0.1
     },
     {
@@ -535,7 +545,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 53,
+      "position": 54,
       "percent": 0.1
     },
     {
@@ -545,7 +555,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 54,
+      "position": 55,
       "percent": 0.1
     },
     {
@@ -555,7 +565,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 55,
+      "position": 56,
       "percent": 0.1
     },
     {
@@ -565,7 +575,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 56,
+      "position": 57,
       "percent": 0.1
     },
     {
@@ -575,7 +585,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 57,
+      "position": 58,
       "percent": 0.1
     },
     {
@@ -585,7 +595,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 58,
+      "position": 59,
       "percent": 0.1
     },
     {
@@ -595,7 +605,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 59,
+      "position": 60,
       "percent": 0.1
     },
     {
@@ -605,7 +615,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 60,
+      "position": 61,
       "percent": 0.1
     },
     {
@@ -615,7 +625,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 61,
+      "position": 62,
       "percent": 0.1
     },
     {
@@ -625,7 +635,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 62,
+      "position": 63,
       "percent": 0.1
     },
     {
@@ -635,7 +645,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 63,
+      "position": 64,
       "percent": 0.1
     },
     {
@@ -645,7 +655,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 64,
+      "position": 65,
       "percent": 0.1
     },
     {
@@ -655,7 +665,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 65,
+      "position": 66,
       "percent": 0.1
     },
     {
@@ -665,7 +675,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 66,
+      "position": 67,
       "percent": 0.1
     },
     {
@@ -675,7 +685,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 67,
+      "position": 68,
       "percent": 0.1
     },
     {
@@ -685,7 +695,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 68,
+      "position": 69,
       "percent": 0.1
     },
     {
@@ -695,7 +705,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 69,
+      "position": 70,
       "percent": 0.1
     },
     {
@@ -705,7 +715,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 70,
+      "position": 71,
       "percent": 0.1
     },
     {
@@ -715,7 +725,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 71,
+      "position": 72,
       "percent": 0.1
     },
     {
@@ -725,7 +735,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 72,
+      "position": 73,
       "percent": 0.1
     },
     {
@@ -735,7 +745,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 73,
+      "position": 74,
       "percent": 0.1
     },
     {
@@ -745,7 +755,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 74,
+      "position": 75,
       "percent": 0.1
     },
     {
@@ -755,7 +765,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 75,
+      "position": 76,
       "percent": 0.1
     },
     {
@@ -765,7 +775,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 76,
+      "position": 77,
       "percent": 0.1
     },
     {
@@ -775,7 +785,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 77,
+      "position": 78,
       "percent": 0.1
     },
     {
@@ -785,7 +795,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 78,
+      "position": 79,
       "percent": 0.1
     },
     {
@@ -795,7 +805,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 79,
+      "position": 80,
       "percent": 0.1
     },
     {
@@ -805,7 +815,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 80,
+      "position": 81,
       "percent": 0.1
     },
     {
@@ -815,7 +825,7 @@
       "diamonds": 8,
       "rating": 80,
       "is_premium": false,
-      "position": 81,
+      "position": 82,
       "percent": 0.1
     },
     {
@@ -825,7 +835,7 @@
       "diamonds": 0,
       "rating": 80,
       "is_premium": false,
-      "position": 82,
+      "position": 83,
       "percent": 0.1
     },
     {
@@ -835,7 +845,7 @@
       "diamonds": 0,
       "rating": 78,
       "is_premium": false,
-      "position": 83,
+      "position": 84,
       "percent": 0.1
     },
     {
@@ -845,7 +855,7 @@
       "diamonds": 0,
       "rating": 74,
       "is_premium": false,
-      "position": 84,
+      "position": 85,
       "percent": 0.1
     },
     {
@@ -855,7 +865,7 @@
       "diamonds": 0,
       "rating": 66,
       "is_premium": false,
-      "position": 85,
+      "position": 86,
       "percent": 0.1
     },
     {
@@ -865,7 +875,7 @@
       "diamonds": 0,
       "rating": 64,
       "is_premium": false,
-      "position": 86,
+      "position": 87,
       "percent": 0.1
     },
     {
@@ -875,7 +885,7 @@
       "diamonds": 0,
       "rating": 64,
       "is_premium": false,
-      "position": 87,
+      "position": 88,
       "percent": 0.1
     },
     {
@@ -885,7 +895,7 @@
       "diamonds": 0,
       "rating": 64,
       "is_premium": false,
-      "position": 88,
+      "position": 89,
       "percent": 0.1
     },
     {
@@ -895,7 +905,7 @@
       "diamonds": 0,
       "rating": 62,
       "is_premium": false,
-      "position": 89,
+      "position": 90,
       "percent": 0.1
     },
     {
@@ -905,7 +915,7 @@
       "diamonds": 0,
       "rating": 62,
       "is_premium": false,
-      "position": 90,
+      "position": 91,
       "percent": 0.1
     },
     {
@@ -915,7 +925,7 @@
       "diamonds": 2,
       "rating": 60,
       "is_premium": false,
-      "position": 91,
+      "position": 92,
       "percent": 0.1
     },
     {
@@ -925,7 +935,7 @@
       "diamonds": 1,
       "rating": 56,
       "is_premium": false,
-      "position": 92,
+      "position": 93,
       "percent": 0.1
     },
     {
@@ -935,7 +945,7 @@
       "diamonds": 0,
       "rating": 56,
       "is_premium": false,
-      "position": 93,
+      "position": 94,
       "percent": 0.1
     },
     {
@@ -945,7 +955,7 @@
       "diamonds": 0,
       "rating": 56,
       "is_premium": false,
-      "position": 94,
+      "position": 95,
       "percent": 0.1
     },
     {
@@ -955,7 +965,7 @@
       "diamonds": 0,
       "rating": 56,
       "is_premium": false,
-      "position": 95,
+      "position": 96,
       "percent": 0.1
     },
     {
@@ -965,7 +975,7 @@
       "diamonds": 1,
       "rating": 54,
       "is_premium": false,
-      "position": 96,
+      "position": 97,
       "percent": 0.1
     },
     {
@@ -975,7 +985,7 @@
       "diamonds": 0,
       "rating": 52,
       "is_premium": false,
-      "position": 97,
+      "position": 98,
       "percent": 0.1
     },
     {
@@ -985,23 +995,13 @@
       "diamonds": 0,
       "rating": 50,
       "is_premium": false,
-      "position": 98,
+      "position": 99,
       "percent": 0.1
     },
     {
       "user_id": 867375493,
       "username": "dofamin9",
       "name": "Тёма",
-      "diamonds": 0,
-      "rating": 48,
-      "is_premium": false,
-      "position": 99,
-      "percent": 0.0
-    },
-    {
-      "user_id": 7042847272,
-      "username": "нет",
-      "name": "Глеб",
       "diamonds": 0,
       "rating": 48,
       "is_premium": false,
