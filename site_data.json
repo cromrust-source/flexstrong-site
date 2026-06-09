@@ -1,7 +1,7 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 18:22:43",
+  "timestamp": "09.06.2026 18:22:48",
   "stats": {
     "total_users": 345,
     "premium_users": 6,
@@ -1015,6 +1015,13 @@
       "name": "Alexey",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-09 18:22:48"
+    },
+    {
+      "user_id": 760950914,
+      "name": "Alexey",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-09 18:22:36"
     },
     {
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-09 15:33:28"
-    },
-    {
-      "user_id": 8568651459,
-      "name": "︎︎",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 15:33:06"
     }
   ],
   "recent_premium": [
