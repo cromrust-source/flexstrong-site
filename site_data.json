@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 10:45:39",
+  "timestamp": "09.06.2026 10:46:11",
   "stats": {
     "total_users": 335,
     "premium_users": 6,
-    "total_diamonds": 11670
+    "total_diamonds": 11668
   },
   "top": [
     {
@@ -189,21 +189,21 @@
       "percent": 0.2
     },
     {
-      "user_id": 6897629114,
-      "username": "Braydon_inside",
-      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
-      "diamonds": 2,
-      "rating": 152,
-      "is_premium": false,
-      "position": 19,
-      "percent": 0.2
-    },
-    {
       "user_id": 5086980927,
       "username": "celestialskyline_flood",
       "name": "Tyler",
       "diamonds": 10,
       "rating": 136,
+      "is_premium": false,
+      "position": 19,
+      "percent": 0.1
+    },
+    {
+      "user_id": 6897629114,
+      "username": "Braydon_inside",
+      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
+      "diamonds": 0,
+      "rating": 134,
       "is_premium": false,
       "position": 20,
       "percent": 0.1
@@ -1011,6 +1011,13 @@
   ],
   "recent_spends": [
     {
+      "user_id": 6897629114,
+      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 10:45:40"
+    },
+    {
       "user_id": 5174306341,
       "name": "︎ ︎ ︎ ︎ ︎",
       "amount": 2,
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-09 07:26:28"
-    },
-    {
-      "user_id": 5124467316,
-      "name": "$wa$ton_$winota",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 07:21:34"
     }
   ],
   "recent_premium": [
@@ -1206,14 +1206,14 @@
       "total_spent": 28
     },
     {
-      "user_id": 5660992957,
-      "name": "артём",
+      "user_id": 6897629114,
+      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
       "total_spent": 24
     },
     {
-      "user_id": 6897629114,
-      "name": "𝕭𝖗𝖆𝖞𝖉𝖔𝖓",
-      "total_spent": 22
+      "user_id": 5660992957,
+      "name": "артём",
+      "total_spent": 24
     },
     {
       "user_id": 1641622800,
