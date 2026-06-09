@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 07:26:26",
+  "timestamp": "09.06.2026 07:26:51",
   "stats": {
     "total_users": 334,
     "premium_users": 6,
-    "total_diamonds": 11664
+    "total_diamonds": 11662
   },
   "top": [
     {
@@ -139,21 +139,21 @@
       "percent": 0.2
     },
     {
-      "user_id": 8550419112,
-      "username": "Barnetun",
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "diamonds": 4,
-      "rating": 194,
-      "is_premium": false,
-      "position": 14,
-      "percent": 0.2
-    },
-    {
       "user_id": 5022684179,
       "username": "erakaz7",
       "name": "h4ZeX",
       "diamonds": 6,
       "rating": 184,
+      "is_premium": false,
+      "position": 14,
+      "percent": 0.2
+    },
+    {
+      "user_id": 8550419112,
+      "username": "Barnetun",
+      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
+      "diamonds": 2,
+      "rating": 176,
       "is_premium": false,
       "position": 15,
       "percent": 0.2
@@ -1011,6 +1011,13 @@
   ],
   "recent_spends": [
     {
+      "user_id": 8550419112,
+      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 07:26:28"
+    },
+    {
       "user_id": 5124467316,
       "name": "$wa$ton_$winota",
       "amount": 2,
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-08 19:07:11"
-    },
-    {
-      "user_id": 7067830651,
-      "name": "Одинокий",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-08 19:06:55"
     }
   ],
   "recent_premium": [
@@ -1163,7 +1163,7 @@
     {
       "user_id": 8550419112,
       "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "total_spent": 144
+      "total_spent": 146
     },
     {
       "user_id": 6081755618,
