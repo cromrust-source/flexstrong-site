@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 17:14:03",
+  "timestamp": "09.06.2026 17:14:35",
   "stats": {
     "total_users": 344,
     "premium_users": 6,
-    "total_diamonds": 11662
+    "total_diamonds": 11658
   },
   "top": [
     {
@@ -102,11 +102,11 @@
       "user_id": 1641622800,
       "username": "нет",
       "name": "Litput",
-      "diamonds": 22,
-      "rating": 264,
+      "diamonds": 18,
+      "rating": 228,
       "is_premium": false,
       "position": 10,
-      "percent": 0.3
+      "percent": 0.2
     },
     {
       "user_id": 8031380265,
@@ -1015,6 +1015,20 @@
       "name": "Litput",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-09 17:14:15"
+    },
+    {
+      "user_id": 1641622800,
+      "name": "Litput",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 17:14:08"
+    },
+    {
+      "user_id": 1641622800,
+      "name": "Litput",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-09 17:13:44"
     },
     {
@@ -1135,20 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-09 15:30:06"
-    },
-    {
-      "user_id": 5543213408,
-      "name": "Ну Рим",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 15:29:56"
-    },
-    {
-      "user_id": 8712941587,
-      "name": "f*ck sunrise",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 15:11:25"
     }
   ],
   "recent_premium": [
@@ -1181,6 +1181,11 @@
       "total_spent": 44
     },
     {
+      "user_id": 1641622800,
+      "name": "Litput",
+      "total_spent": 36
+    },
+    {
       "user_id": 8031380265,
       "name": "Zxc #мёртвый#плохой#zxc",
       "total_spent": 34
@@ -1193,11 +1198,6 @@
     {
       "user_id": 5022684179,
       "name": "h4ZeX",
-      "total_spent": 32
-    },
-    {
-      "user_id": 1641622800,
-      "name": "Litput",
       "total_spent": 32
     },
     {
