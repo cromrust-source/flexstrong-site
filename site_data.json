@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 07:17:08",
+  "timestamp": "09.06.2026 07:17:41",
   "stats": {
     "total_users": 334,
     "premium_users": 6,
-    "total_diamonds": 11658
+    "total_diamonds": 11660
   },
   "top": [
     {
@@ -919,13 +919,23 @@
       "percent": 0.1
     },
     {
+      "user_id": 5124467316,
+      "username": "dekox3",
+      "name": "$wa$ton_$winota",
+      "diamonds": 2,
+      "rating": 60,
+      "is_premium": false,
+      "position": 92,
+      "percent": 0.1
+    },
+    {
       "user_id": 5688786676,
       "username": "Distructioncybermetabolic",
       "name": "cube",
       "diamonds": 2,
       "rating": 60,
       "is_premium": false,
-      "position": 92,
+      "position": 93,
       "percent": 0.1
     },
     {
@@ -935,7 +945,7 @@
       "diamonds": 1,
       "rating": 56,
       "is_premium": false,
-      "position": 93,
+      "position": 94,
       "percent": 0.1
     },
     {
@@ -945,7 +955,7 @@
       "diamonds": 0,
       "rating": 56,
       "is_premium": false,
-      "position": 94,
+      "position": 95,
       "percent": 0.1
     },
     {
@@ -955,7 +965,7 @@
       "diamonds": 0,
       "rating": 56,
       "is_premium": false,
-      "position": 95,
+      "position": 96,
       "percent": 0.1
     },
     {
@@ -965,7 +975,7 @@
       "diamonds": 0,
       "rating": 54,
       "is_premium": false,
-      "position": 96,
+      "position": 97,
       "percent": 0.1
     },
     {
@@ -975,7 +985,7 @@
       "diamonds": 0,
       "rating": 52,
       "is_premium": false,
-      "position": 97,
+      "position": 98,
       "percent": 0.1
     },
     {
@@ -985,23 +995,13 @@
       "diamonds": 0,
       "rating": 48,
       "is_premium": false,
-      "position": 98,
+      "position": 99,
       "percent": 0.0
     },
     {
       "user_id": 1641331137,
       "username": "нет",
       "name": "Ilya",
-      "diamonds": 0,
-      "rating": 48,
-      "is_premium": false,
-      "position": 99,
-      "percent": 0.0
-    },
-    {
-      "user_id": 7042847272,
-      "username": "нет",
-      "name": "Глеб",
       "diamonds": 0,
       "rating": 48,
       "is_premium": false,
