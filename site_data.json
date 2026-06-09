@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 15:30:28",
+  "timestamp": "09.06.2026 15:31:01",
   "stats": {
     "total_users": 342,
     "premium_users": 6,
-    "total_diamonds": 11664
+    "total_diamonds": 11662
   },
   "top": [
     {
@@ -1015,6 +1015,20 @@
       "name": "Ну Рим",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-09 15:31:00"
+    },
+    {
+      "user_id": 5543213408,
+      "name": "Ну Рим",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 15:30:49"
+    },
+    {
+      "user_id": 5543213408,
+      "name": "Ну Рим",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-09 15:30:10"
     },
     {
@@ -1135,20 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-09 12:53:20"
-    },
-    {
-      "user_id": 8565446618,
-      "name": "M",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 12:52:20"
-    },
-    {
-      "user_id": 8565446618,
-      "name": "M",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 12:51:30"
     }
   ],
   "recent_premium": [
