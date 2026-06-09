@@ -1,9 +1,9 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 15:10:36",
+  "timestamp": "09.06.2026 15:11:08",
   "stats": {
-    "total_users": 340,
+    "total_users": 341,
     "premium_users": 6,
     "total_diamonds": 11660
   },
@@ -1011,6 +1011,34 @@
   ],
   "recent_spends": [
     {
+      "user_id": 8712941587,
+      "name": "f*ck sunrise",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 15:11:04"
+    },
+    {
+      "user_id": 8712941587,
+      "name": "f*ck sunrise",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 15:11:01"
+    },
+    {
+      "user_id": 8712941587,
+      "name": "f*ck sunrise",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 15:11:00"
+    },
+    {
+      "user_id": 8712941587,
+      "name": "f*ck sunrise",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 15:10:58"
+    },
+    {
       "user_id": 1439741271,
       "name": "Kappa",
       "amount": 2,
@@ -1121,34 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-09 12:25:00"
-    },
-    {
-      "user_id": 1665574819,
-      "name": "Мыша",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 12:24:57"
-    },
-    {
-      "user_id": 1665574819,
-      "name": "Мыша",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 12:24:54"
-    },
-    {
-      "user_id": 1665574819,
-      "name": "Мыша",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 12:24:48"
-    },
-    {
-      "user_id": 1665574819,
-      "name": "Мыша",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 12:24:45"
     }
   ],
   "recent_premium": [
