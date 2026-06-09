@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 14:06:18",
+  "timestamp": "09.06.2026 14:06:51",
   "stats": {
     "total_users": 339,
     "premium_users": 6,
-    "total_diamonds": 11662
+    "total_diamonds": 11660
   },
   "top": [
     {
@@ -1015,6 +1015,13 @@
       "name": "Нурлан",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-09 14:06:37"
+    },
+    {
+      "user_id": 8337437900,
+      "name": "Нурлан",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-09 14:06:16"
     },
     {
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-09 11:36:47"
-    },
-    {
-      "user_id": 5543006191,
-      "name": "The Ekibastuz Butcher",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 11:36:36"
     }
   ],
   "recent_premium": [
