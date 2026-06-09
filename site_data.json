@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 19:41:33",
+  "timestamp": "09.06.2026 19:42:05",
   "stats": {
     "total_users": 346,
     "premium_users": 6,
-    "total_diamonds": 11672
+    "total_diamonds": 11654
   },
   "top": [
     {
@@ -89,23 +89,13 @@
       "percent": 0.3
     },
     {
-      "user_id": 8328030781,
-      "username": "нет",
-      "name": "Тайный",
-      "diamonds": 18,
-      "rating": 310,
-      "is_premium": false,
-      "position": 9,
-      "percent": 0.3
-    },
-    {
       "user_id": 6484935444,
       "username": "нет",
       "name": "Mckdiejsnnd",
       "diamonds": 26,
       "rating": 288,
       "is_premium": false,
-      "position": 10,
+      "position": 9,
       "percent": 0.3
     },
     {
@@ -115,7 +105,7 @@
       "diamonds": 0,
       "rating": 226,
       "is_premium": false,
-      "position": 11,
+      "position": 10,
       "percent": 0.2
     },
     {
@@ -125,7 +115,7 @@
       "diamonds": 0,
       "rating": 226,
       "is_premium": false,
-      "position": 12,
+      "position": 11,
       "percent": 0.2
     },
     {
@@ -135,7 +125,7 @@
       "diamonds": 20,
       "rating": 208,
       "is_premium": false,
-      "position": 13,
+      "position": 12,
       "percent": 0.2
     },
     {
@@ -145,7 +135,7 @@
       "diamonds": 14,
       "rating": 192,
       "is_premium": false,
-      "position": 14,
+      "position": 13,
       "percent": 0.2
     },
     {
@@ -155,7 +145,7 @@
       "diamonds": 6,
       "rating": 184,
       "is_premium": false,
-      "position": 15,
+      "position": 14,
       "percent": 0.2
     },
     {
@@ -165,7 +155,7 @@
       "diamonds": 0,
       "rating": 170,
       "is_premium": false,
-      "position": 16,
+      "position": 15,
       "percent": 0.2
     },
     {
@@ -175,7 +165,7 @@
       "diamonds": 0,
       "rating": 170,
       "is_premium": false,
-      "position": 17,
+      "position": 16,
       "percent": 0.2
     },
     {
@@ -185,7 +175,7 @@
       "diamonds": 0,
       "rating": 168,
       "is_premium": false,
-      "position": 18,
+      "position": 17,
       "percent": 0.2
     },
     {
@@ -195,8 +185,18 @@
       "diamonds": 11,
       "rating": 168,
       "is_premium": false,
-      "position": 19,
+      "position": 18,
       "percent": 0.2
+    },
+    {
+      "user_id": 8328030781,
+      "username": "нет",
+      "name": "Тайный",
+      "diamonds": 0,
+      "rating": 148,
+      "is_premium": false,
+      "position": 19,
+      "percent": 0.1
     },
     {
       "user_id": 5086980927,
@@ -1015,6 +1015,69 @@
       "name": "Тайный",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-09 19:41:48"
+    },
+    {
+      "user_id": 8328030781,
+      "name": "Тайный",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 19:41:47"
+    },
+    {
+      "user_id": 8328030781,
+      "name": "Тайный",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 19:41:47"
+    },
+    {
+      "user_id": 8328030781,
+      "name": "Тайный",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 19:41:47"
+    },
+    {
+      "user_id": 8328030781,
+      "name": "Тайный",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 19:41:47"
+    },
+    {
+      "user_id": 8328030781,
+      "name": "Тайный",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 19:41:47"
+    },
+    {
+      "user_id": 8328030781,
+      "name": "Тайный",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 19:41:46"
+    },
+    {
+      "user_id": 8328030781,
+      "name": "Тайный",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 19:41:46"
+    },
+    {
+      "user_id": 8328030781,
+      "name": "Тайный",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 19:41:46"
+    },
+    {
+      "user_id": 8328030781,
+      "name": "Тайный",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-09 19:40:44"
     },
     {
@@ -1086,69 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-09 19:40:23"
-    },
-    {
-      "user_id": 8328030781,
-      "name": "Тайный",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 19:40:23"
-    },
-    {
-      "user_id": 8328030781,
-      "name": "Тайный",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 19:40:22"
-    },
-    {
-      "user_id": 8328030781,
-      "name": "Тайный",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 19:40:08"
-    },
-    {
-      "user_id": 8328030781,
-      "name": "Тайный",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 19:40:08"
-    },
-    {
-      "user_id": 8328030781,
-      "name": "Тайный",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 19:40:08"
-    },
-    {
-      "user_id": 8328030781,
-      "name": "Тайный",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 19:40:08"
-    },
-    {
-      "user_id": 8328030781,
-      "name": "Тайный",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 19:40:08"
-    },
-    {
-      "user_id": 8328030781,
-      "name": "Тайный",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 19:39:47"
-    },
-    {
-      "user_id": 8328030781,
-      "name": "Тайный",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 19:39:47"
     }
   ],
   "recent_premium": [
@@ -1166,14 +1166,14 @@
       "total_spent": 160
     },
     {
+      "user_id": 8328030781,
+      "name": "Тайный",
+      "total_spent": 148
+    },
+    {
       "user_id": 6081755618,
       "name": "Артем",
       "total_spent": 144
-    },
-    {
-      "user_id": 8328030781,
-      "name": "Тайный",
-      "total_spent": 130
     },
     {
       "user_id": 6076151756,
