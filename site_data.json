@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 07:46:39",
+  "timestamp": "09.06.2026 07:47:02",
   "stats": {
     "total_users": 334,
     "premium_users": 6,
-    "total_diamonds": 11660
+    "total_diamonds": 11662
   },
   "top": [
     {
@@ -279,13 +279,23 @@
       "percent": 0.1
     },
     {
+      "user_id": 1394034854,
+      "username": "plategabottest",
+      "name": "PLATEGA",
+      "diamonds": 10,
+      "rating": 102,
+      "is_premium": false,
+      "position": 28,
+      "percent": 0.1
+    },
+    {
       "user_id": 1030535744,
       "username": "maksimwill",
       "name": "David",
       "diamonds": 10,
       "rating": 100,
       "is_premium": false,
-      "position": 28,
+      "position": 29,
       "percent": 0.1
     },
     {
@@ -295,7 +305,7 @@
       "diamonds": 10,
       "rating": 100,
       "is_premium": false,
-      "position": 29,
+      "position": 30,
       "percent": 0.1
     },
     {
@@ -305,7 +315,7 @@
       "diamonds": 0,
       "rating": 100,
       "is_premium": false,
-      "position": 30,
+      "position": 31,
       "percent": 0.1
     },
     {
@@ -315,7 +325,7 @@
       "diamonds": 0,
       "rating": 94,
       "is_premium": false,
-      "position": 31,
+      "position": 32,
       "percent": 0.1
     },
     {
@@ -325,7 +335,7 @@
       "diamonds": 6,
       "rating": 90,
       "is_premium": false,
-      "position": 32,
+      "position": 33,
       "percent": 0.1
     },
     {
@@ -335,7 +345,7 @@
       "diamonds": 0,
       "rating": 88,
       "is_premium": false,
-      "position": 33,
+      "position": 34,
       "percent": 0.1
     },
     {
@@ -344,16 +354,6 @@
       "name": "Forzess",
       "diamonds": 0,
       "rating": 88,
-      "is_premium": false,
-      "position": 34,
-      "percent": 0.1
-    },
-    {
-      "user_id": 1394034854,
-      "username": "plategabottest",
-      "name": "PLATEGA",
-      "diamonds": 8,
-      "rating": 82,
       "is_premium": false,
       "position": 35,
       "percent": 0.1
