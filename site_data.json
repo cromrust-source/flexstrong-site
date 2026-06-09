@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 19:38:20",
+  "timestamp": "09.06.2026 19:38:52",
   "stats": {
     "total_users": 346,
     "premium_users": 6,
-    "total_diamonds": 11744
+    "total_diamonds": 11738
   },
   "top": [
     {
@@ -42,11 +42,11 @@
       "user_id": 8328030781,
       "username": "нет",
       "name": "Тайный",
-      "diamonds": 90,
-      "rating": 958,
+      "diamonds": 84,
+      "rating": 904,
       "is_premium": false,
       "position": 4,
-      "percent": 1.0
+      "percent": 0.9
     },
     {
       "user_id": 8596433862,
@@ -1015,6 +1015,27 @@
       "name": "Тайный",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-09 19:38:51"
+    },
+    {
+      "user_id": 8328030781,
+      "name": "Тайный",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 19:38:50"
+    },
+    {
+      "user_id": 8328030781,
+      "name": "Тайный",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 19:38:50"
+    },
+    {
+      "user_id": 8328030781,
+      "name": "Тайный",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-09 19:38:19"
     },
     {
@@ -1128,27 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-09 19:37:42"
-    },
-    {
-      "user_id": 8328030781,
-      "name": "Тайный",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 19:37:42"
-    },
-    {
-      "user_id": 8328030781,
-      "name": "Тайный",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 19:37:42"
-    },
-    {
-      "user_id": 8328030781,
-      "name": "Тайный",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 19:37:38"
     }
   ],
   "recent_premium": [
@@ -1178,7 +1178,7 @@
     {
       "user_id": 8328030781,
       "name": "Тайный",
-      "total_spent": 58
+      "total_spent": 64
     },
     {
       "user_id": 5124467316,
