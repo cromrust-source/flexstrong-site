@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 12:52:16",
+  "timestamp": "09.06.2026 12:52:36",
   "stats": {
     "total_users": 339,
     "premium_users": 6,
-    "total_diamonds": 11670
+    "total_diamonds": 11668
   },
   "top": [
     {
@@ -1015,6 +1015,13 @@
       "name": "M",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-09 12:52:20"
+    },
+    {
+      "user_id": 8565446618,
+      "name": "M",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-09 12:51:30"
     },
     {
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-09 11:28:56"
-    },
-    {
-      "user_id": 1036459677,
-      "name": "Maylo",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 11:28:28"
     }
   ],
   "recent_premium": [
