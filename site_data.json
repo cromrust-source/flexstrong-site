@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 17:13:31",
+  "timestamp": "09.06.2026 17:14:03",
   "stats": {
     "total_users": 344,
     "premium_users": 6,
-    "total_diamonds": 11668
+    "total_diamonds": 11662
   },
   "top": [
     {
@@ -79,23 +79,13 @@
       "percent": 0.3
     },
     {
-      "user_id": 1641622800,
-      "username": "нет",
-      "name": "Litput",
-      "diamonds": 28,
-      "rating": 318,
-      "is_premium": false,
-      "position": 8,
-      "percent": 0.3
-    },
-    {
       "user_id": 1364892015,
       "username": "DUROV6373",
       "name": "𝖕𝖊𝖙𝖗𝖚𝖈𝖔",
       "diamonds": 0,
       "rating": 314,
       "is_premium": false,
-      "position": 9,
+      "position": 8,
       "percent": 0.3
     },
     {
@@ -104,6 +94,16 @@
       "name": "Mckdiejsnnd",
       "diamonds": 26,
       "rating": 288,
+      "is_premium": false,
+      "position": 9,
+      "percent": 0.3
+    },
+    {
+      "user_id": 1641622800,
+      "username": "нет",
+      "name": "Litput",
+      "diamonds": 22,
+      "rating": 264,
       "is_premium": false,
       "position": 10,
       "percent": 0.3
@@ -1015,6 +1015,27 @@
       "name": "Litput",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-09 17:13:44"
+    },
+    {
+      "user_id": 1641622800,
+      "name": "Litput",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 17:13:42"
+    },
+    {
+      "user_id": 1641622800,
+      "name": "Litput",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-09 17:13:39"
+    },
+    {
+      "user_id": 1641622800,
+      "name": "Litput",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-09 17:12:57"
     },
     {
@@ -1128,27 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-09 15:11:25"
-    },
-    {
-      "user_id": 8712941587,
-      "name": "f*ck sunrise",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 15:11:04"
-    },
-    {
-      "user_id": 8712941587,
-      "name": "f*ck sunrise",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 15:11:01"
-    },
-    {
-      "user_id": 8712941587,
-      "name": "f*ck sunrise",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 15:11:00"
     }
   ],
   "recent_premium": [
@@ -1196,6 +1196,11 @@
       "total_spent": 32
     },
     {
+      "user_id": 1641622800,
+      "name": "Litput",
+      "total_spent": 32
+    },
+    {
       "user_id": 8200201971,
       "name": "Ers",
       "total_spent": 30
@@ -1204,11 +1209,6 @@
       "user_id": 1641331137,
       "name": "Ilya",
       "total_spent": 30
-    },
-    {
-      "user_id": 1641622800,
-      "name": "Litput",
-      "total_spent": 26
     },
     {
       "user_id": 6897629114,
