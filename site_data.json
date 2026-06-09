@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "09.06.2026 15:11:23",
+  "timestamp": "09.06.2026 15:11:40",
   "stats": {
     "total_users": 341,
     "premium_users": 6,
-    "total_diamonds": 11662
+    "total_diamonds": 11660
   },
   "top": [
     {
@@ -1015,6 +1015,13 @@
       "name": "f*ck sunrise",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-09 15:11:25"
+    },
+    {
+      "user_id": 8712941587,
+      "name": "f*ck sunrise",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-09 15:11:04"
     },
     {
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-09 12:27:24"
-    },
-    {
-      "user_id": 1665574819,
-      "name": "Мыша",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 12:25:00"
     }
   ],
   "recent_premium": [
