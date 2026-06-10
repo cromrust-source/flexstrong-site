@@ -1,7 +1,7 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "10.06.2026 13:28:25",
+  "timestamp": "10.06.2026 13:28:57",
   "stats": {
     "total_users": 355,
     "premium_users": 6,
@@ -279,19 +279,19 @@
       "percent": 0.1
     },
     {
-      "user_id": 1030535744,
-      "username": "maksimwill",
-      "name": "David",
-      "diamonds": 10,
-      "rating": 100,
+      "user_id": 8200201971,
+      "username": "нет",
+      "name": "Ers",
+      "diamonds": 0,
+      "rating": 102,
       "is_premium": false,
       "position": 28,
       "percent": 0.1
     },
     {
-      "user_id": 1739752803,
-      "username": "Kursadll",
-      "name": "Kursed",
+      "user_id": 1030535744,
+      "username": "maksimwill",
+      "name": "David",
       "diamonds": 10,
       "rating": 100,
       "is_premium": false,
@@ -299,10 +299,10 @@
       "percent": 0.1
     },
     {
-      "user_id": 8200201971,
-      "username": "нет",
-      "name": "Ers",
-      "diamonds": 0,
+      "user_id": 1739752803,
+      "username": "Kursadll",
+      "name": "Kursed",
+      "diamonds": 10,
       "rating": 100,
       "is_premium": false,
       "position": 30,
@@ -1011,6 +1011,13 @@
   ],
   "recent_spends": [
     {
+      "user_id": 8200201971,
+      "name": "Ers",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-10 13:28:51"
+    },
+    {
       "user_id": 8596433862,
       "name": ".",
       "amount": 2,
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-10 09:55:37"
-    },
-    {
-      "user_id": 5354052512,
-      "name": "ᅠLSD",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-10 09:55:35"
     }
   ],
   "recent_premium": [
@@ -1206,14 +1206,14 @@
       "total_spent": 34
     },
     {
-      "user_id": 5022684179,
-      "name": "h4ZeX",
+      "user_id": 8200201971,
+      "name": "Ers",
       "total_spent": 32
     },
     {
-      "user_id": 8200201971,
-      "name": "Ers",
-      "total_spent": 30
+      "user_id": 5022684179,
+      "name": "h4ZeX",
+      "total_spent": 32
     },
     {
       "user_id": 1641331137,
