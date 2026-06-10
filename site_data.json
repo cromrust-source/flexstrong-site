@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "10.06.2026 13:29:30",
+  "timestamp": "10.06.2026 13:30:02",
   "stats": {
     "total_users": 355,
     "premium_users": 6,
-    "total_diamonds": 11629
+    "total_diamonds": 11627
   },
   "top": [
     {
@@ -139,23 +139,13 @@
       "percent": 0.2
     },
     {
-      "user_id": 5022684179,
-      "username": "erakaz7",
-      "name": "h4ZeX",
-      "diamonds": 6,
-      "rating": 184,
-      "is_premium": false,
-      "position": 14,
-      "percent": 0.2
-    },
-    {
       "user_id": 6081755618,
       "username": "artem_mentality",
       "name": "Артем",
       "diamonds": 0,
       "rating": 170,
       "is_premium": false,
-      "position": 15,
+      "position": 14,
       "percent": 0.2
     },
     {
@@ -164,6 +154,16 @@
       "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
       "diamonds": 0,
       "rating": 170,
+      "is_premium": false,
+      "position": 15,
+      "percent": 0.2
+    },
+    {
+      "user_id": 5022684179,
+      "username": "erakaz7",
+      "name": "h4ZeX",
+      "diamonds": 4,
+      "rating": 168,
       "is_premium": false,
       "position": 16,
       "percent": 0.2
@@ -1011,6 +1011,20 @@
   ],
   "recent_spends": [
     {
+      "user_id": 5022684179,
+      "name": "h4ZeX",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-10 13:29:44"
+    },
+    {
+      "user_id": 5022684179,
+      "name": "h4ZeX",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-10 13:29:35"
+    },
+    {
       "user_id": 8200201971,
       "name": "Ers",
       "amount": 2,
@@ -1135,20 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-10 09:55:43"
-    },
-    {
-      "user_id": 5354052512,
-      "name": "ᅠLSD",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-10 09:55:39"
-    },
-    {
-      "user_id": 5354052512,
-      "name": "ᅠLSD",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-10 09:55:37"
     }
   ],
   "recent_premium": [
@@ -1191,6 +1191,11 @@
       "total_spent": 40
     },
     {
+      "user_id": 5022684179,
+      "name": "h4ZeX",
+      "total_spent": 36
+    },
+    {
       "user_id": 8031380265,
       "name": "Zxc #мёртвый#плохой#zxc",
       "total_spent": 34
@@ -1208,11 +1213,6 @@
     {
       "user_id": 8200201971,
       "name": "Ers",
-      "total_spent": 32
-    },
-    {
-      "user_id": 5022684179,
-      "name": "h4ZeX",
       "total_spent": 32
     },
     {
