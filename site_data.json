@@ -1,7 +1,7 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "10.06.2026 20:21:18",
+  "timestamp": "10.06.2026 20:21:51",
   "stats": {
     "total_users": 355,
     "premium_users": 6,
@@ -49,23 +49,13 @@
       "percent": 0.8
     },
     {
-      "user_id": 8596433862,
-      "username": "myreferlis",
-      "name": ".",
-      "diamonds": 1,
-      "rating": 776,
-      "is_premium": true,
-      "position": 5,
-      "percent": 0.8
-    },
-    {
       "user_id": 8490240103,
       "username": "",
       "name": "ID:8490240103",
       "diamonds": 50,
       "rating": 500,
       "is_premium": false,
-      "position": 6,
+      "position": 5,
       "percent": 0.5
     },
     {
@@ -75,7 +65,7 @@
       "diamonds": 32,
       "rating": 320,
       "is_premium": false,
-      "position": 7,
+      "position": 6,
       "percent": 0.3
     },
     {
@@ -85,7 +75,7 @@
       "diamonds": 0,
       "rating": 314,
       "is_premium": false,
-      "position": 8,
+      "position": 7,
       "percent": 0.3
     },
     {
@@ -94,6 +84,16 @@
       "name": "Mckdiejsnnd",
       "diamonds": 26,
       "rating": 288,
+      "is_premium": false,
+      "position": 8,
+      "percent": 0.3
+    },
+    {
+      "user_id": 8596433862,
+      "username": "myreferlis",
+      "name": ".",
+      "diamonds": 1,
+      "rating": 276,
       "is_premium": false,
       "position": 9,
       "percent": 0.3
