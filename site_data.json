@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexStrong_bot",
-  "timestamp": "10.06.2026 00:54:19",
+  "timestamp": "10.06.2026 00:54:51",
   "stats": {
     "total_users": 353,
     "premium_users": 6,
-    "total_diamonds": 11647
+    "total_diamonds": 11645
   },
   "top": [
     {
@@ -1015,6 +1015,13 @@
       "name": "Антон",
       "amount": 2,
       "action": "Просмотр видео",
+      "time": "2026-06-10 00:54:20"
+    },
+    {
+      "user_id": 5929063114,
+      "name": "Антон",
+      "amount": 2,
+      "action": "Просмотр видео",
       "time": "2026-06-10 00:54:06"
     },
     {
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-09 22:37:27"
-    },
-    {
-      "user_id": 1545916852,
-      "name": "Га́шик",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-09 22:37:10"
     }
   ],
   "recent_premium": [
