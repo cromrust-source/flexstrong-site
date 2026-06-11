@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexTeams_bot",
-  "timestamp": "11.06.2026 07:48:03",
+  "timestamp": "11.06.2026 07:48:35",
   "stats": {
     "total_users": 357,
     "premium_users": 6,
-    "total_diamonds": 11610
+    "total_diamonds": 11608
   },
   "top": [
     {
@@ -1011,6 +1011,13 @@
   ],
   "recent_spends": [
     {
+      "user_id": 5838446939,
+      "name": ".",
+      "amount": 2,
+      "action": "Просмотр видео",
+      "time": "2026-06-11 07:48:12"
+    },
+    {
       "user_id": 6484935444,
       "name": "Mckdiejsnnd",
       "amount": 2,
@@ -1142,13 +1149,6 @@
       "amount": 2,
       "action": "Просмотр видео",
       "time": "2026-06-11 01:18:52"
-    },
-    {
-      "user_id": 6484935444,
-      "name": "Mckdiejsnnd",
-      "amount": 2,
-      "action": "Просмотр видео",
-      "time": "2026-06-11 01:18:41"
     }
   ],
   "recent_premium": [
