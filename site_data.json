@@ -1,11 +1,11 @@
 {
   "online": true,
   "bot_username": "FlexTeams_bot",
-  "timestamp": "11.06.2026 02:12:49",
+  "timestamp": "11.06.2026 02:13:19",
   "stats": {
     "total_users": 357,
     "premium_users": 6,
-    "total_diamonds": 11625
+    "total_diamonds": 11628
   },
   "top": [
     {
@@ -119,13 +119,23 @@
       "percent": 0.2
     },
     {
+      "user_id": 8550419112,
+      "username": "Barnetun",
+      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
+      "diamonds": 4,
+      "rating": 214,
+      "is_premium": false,
+      "position": 12,
+      "percent": 0.2
+    },
+    {
       "user_id": 7245660912,
       "username": "нет",
       "name": "Mnaff",
       "diamonds": 20,
       "rating": 208,
       "is_premium": false,
-      "position": 12,
+      "position": 13,
       "percent": 0.2
     },
     {
@@ -134,16 +144,6 @@
       "name": "Litput",
       "diamonds": 14,
       "rating": 192,
-      "is_premium": false,
-      "position": 13,
-      "percent": 0.2
-    },
-    {
-      "user_id": 8550419112,
-      "username": "Barnetun",
-      "name": "ʙᴀʀɴᴇᴛ_ɢᴀʀᴀɴᴛ",
-      "diamonds": 1,
-      "rating": 184,
       "is_premium": false,
       "position": 14,
       "percent": 0.2
